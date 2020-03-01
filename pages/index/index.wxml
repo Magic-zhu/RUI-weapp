@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<Container navBarOptions='{{navBarOptions}}'>
+    <view class='base_wrapper'>
+            <view class='base_item' wx:for='{{list}}' wx:key='index' bindtap='jump'  data-index='{{index}}'>
+                <better-image src='/assets/base_on.png' width='100rpx' height='100rpx'></better-image>
+                <view>{{item.name}}</view>
+                <view class='icon'>Go</view>
+            </view>
+    </view>
+</Container>

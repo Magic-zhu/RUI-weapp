@@ -1,0 +1,12 @@
+.button_ex {
+  padding: 40rpx;
+}
+.button_ex .label {
+  margin-bottom: 20rpx;
+}
+.button_ex .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20rpx;
+}

@@ -1,0 +1,9 @@
+/* pages/Curtain_Ex/index.wxss */
+.curtain_ex{
+    padding: 40rpx;
+}
+.curtain_ex .box{
+    background-color: white;
+    width: 400rpx;
+    height: 400rpx;
+}

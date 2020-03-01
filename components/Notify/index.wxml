@@ -1,0 +1,9 @@
+<view 
+  class="rui-notify" 
+  wx:if='{{show}}' 
+  animation='{{animation}}'
+  style="background-color:{{bgColor}};{{position=='top'?'top:-60rpx':'bottom:-60rpx'}}"
+  >
+  {{message}}
+</view>
+

@@ -1,0 +1,25 @@
+<!--pages/Button_Ex/index.wxml-->
+<Container navBarOptions='{{navBarOptions}}'>
+    <view class='button_ex'>
+        <view class='label'>普通按钮</view>
+        <view class='box'>
+            <better-button onTap='btnTap' params="{{ex_pa}}"></better-button>
+        </view>
+        <view class='label'>禁止状态</view>
+        <view class='box'>
+            <better-button text='禁止状态'  disabled></better-button>
+        </view>
+        <view class='label'>loading状态</view>
+        <view class='box'>
+            <better-button text='loading状态' loading></better-button>
+        </view>
+        <view class='label'>图片按钮</view>
+        <view class='box'>
+            <better-button text='图片按钮'  image='/assets/imagebtn.png'></better-button>
+        </view>
+        <view class='label'>完全自定义</view>
+        <view class='box'>
+            <better-button text='完全自定义'  custom='background-color:pink;width:300rpx;height:200rpx'></better-button>
+        </view>
+    </view>
+</Container >

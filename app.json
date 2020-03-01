@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/Notify_Ex/index",
+    "pages/Button_Ex/index",
+    "pages/Cell_Ex/index",
+    "pages/feedback/index",
+    "pages/Popup_Ex/index",
+    "pages/Curtain_Ex/index"
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "自定义标题",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "better-image": "./components/BetterImage/BetterImage",
+    "better-nav": "./components/BetterNav/BetterNav",
+    "better-button": "./components/BetterButton/index",
+    "Container": "./components/Container/index",
+    "Notify": "./components/Notify/index",
+    "Popup": "./components/Popup/index",
+    "Curtain":"./components/curtain/index"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#13227a",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "基础组件",
+        "iconPath": "/assets/base_off.png",
+        "selectedIconPath": "/assets/base_on.png"
+      },
+      {
+        "pagePath": "pages/feedback/index",
+        "text": "反馈组件",
+        "iconPath": "/assets/feedback_off.png",
+        "selectedIconPath": "/assets/feedback_on.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "表单组件",
+        "iconPath": "/assets/form_off.png",
+        "selectedIconPath": "/assets/form_on.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "业务组件",
+        "iconPath": "/assets/business_off.png",
+        "selectedIconPath": "/assets/business_on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

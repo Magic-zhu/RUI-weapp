@@ -1,0 +1,27 @@
+/* pages/Popup_Ex/index.wxss */
+.popup_ex{
+  padding: 40rpx;
+}
+.label,.box{
+  margin-bottom: 20rpx;
+}
+.white_block{
+  width: 100%;
+  height: 400rpx;
+  background-color: white;
+}
+.white_block1{
+  width: 100%;
+  height: 400rpx;
+  background-color: white;
+}
+.white_block2{
+  width: 300rpx;
+  height: 100%;
+  background-color: white;
+}
+.white_block3{
+  width: 300rpx;
+  height: 100%;
+  background-color: white;
+}

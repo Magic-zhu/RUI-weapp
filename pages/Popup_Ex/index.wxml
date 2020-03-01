@@ -1,0 +1,33 @@
+<!--pages/Popup_Ex/index.wxml-->
+<Container navBarOptions='{{navBarOptions}}'>
+    <view class='popup_ex'>
+        <view class='label'>底部弹出</view>
+        <view class='box'>
+            <better-button onTap='btnTap' text='底部弹出'></better-button>
+        </view>
+        <view class='label'>顶部弹出</view>
+        <view class='box'>
+            <better-button onTap='btnTap1' text='顶部弹出'></better-button>
+        </view>
+        <view class='label'>左边弹出</view>
+        <view class='box'>
+            <better-button onTap='btnTap2' text='左边弹出'></better-button>
+        </view>
+        <view class='label'>右边弹出</view>
+        <view class='box'>
+            <better-button onTap='btnTap3' text='右边弹出'></better-button>
+        </view>                        
+        <Popup id='pop'>
+          <view class="white_block"></view>
+        </Popup>
+        <Popup id='pop1' position='top'>
+          <view class="white_block1"></view>
+        </Popup>
+        <Popup id='pop2'position='left'>
+          <view class="white_block2"></view>
+        </Popup>
+        <Popup id='pop3'position='right'>
+          <view class="white_block3"></view>
+        </Popup>
+    </view>
+</Container >

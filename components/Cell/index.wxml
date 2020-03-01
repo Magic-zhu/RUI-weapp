@@ -1,0 +1,6 @@
+<!--components/Cell/index.wxml-->
+<view class="cell">
+  <view>
+    
+  </view>
+</view>
