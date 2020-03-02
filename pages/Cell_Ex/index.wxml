@@ -1,2 +1,45 @@
 <!--pages/Cell_Ex/index.wxml-->
-<text>pages/Cell_Ex/index.wxml</text>
+<Container navBarOptions='{{navBarOptions}}'>
+  <view class="cell_ex">
+    <view class="label">不同尺寸</view>
+    <Cell 
+      icon_left='/assets/location.png' 
+      icon_right='/assets/right.png'
+      custom='color:#bfbfbf;border-bottom:2rpx solid grey;border-top:2rpx solid grey;'
+      size='small'
+      text_left="small" 
+      ></Cell>
+      <Cell 
+      icon_left='/assets/location.png' 
+      icon_right='/assets/right.png'
+      custom='color:#bfbfbf;border-bottom:2rpx solid grey;'
+      text_left="normal" 
+      ></Cell>
+      <Cell 
+      icon_left='/assets/location.png' 
+      icon_right='/assets/right.png'
+      custom='color:#bfbfbf;border-bottom:2rpx solid grey;'
+      text_left="big" 
+      size='big'
+      ></Cell>
+    <view class="label">有无图标</view>
+    <Cell 
+      icon_right='/assets/right.png'
+      custom='color:#bfbfbf;border-bottom:2rpx solid grey;border-top:2rpx solid grey;'
+      text_left="左侧没有图标" 
+      ></Cell>
+    <Cell 
+      icon_left='/assets/phone.png' 
+      custom='color:#bfbfbf;border-bottom:2rpx solid grey;'
+      text_left="右侧没有图标" 
+      ></Cell>
+      <view class="label">自定义样式</view>
+    <Cell 
+      icon_left='/assets/phone.png' 
+      custom='color:white;border-bottom:2rpx solid red;border-top:2rpx solid blue;background-color:pink;'
+      text_left="完全自定义"
+      text_right='完全自定义' 
+      ></Cell>
+  </view>
+</Container>
+

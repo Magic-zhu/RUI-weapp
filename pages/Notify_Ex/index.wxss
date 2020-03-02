@@ -1,1 +1,10 @@
 /* pages/Notify_Ex/index.wxss */
+.label {
+  margin-bottom: 20rpx;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20rpx;
+}

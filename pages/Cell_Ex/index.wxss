@@ -1,1 +1,3 @@
-/* pages/Cell_Ex/index.wxss */
+.cell_ex .label {
+  margin: 20rpx;
+}

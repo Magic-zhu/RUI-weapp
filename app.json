@@ -23,7 +23,8 @@
     "Container": "./components/Container/index",
     "Notify": "./components/Notify/index",
     "Popup": "./components/Popup/index",
-    "Curtain":"./components/curtain/index"
+    "Curtain":"./components/curtain/index",
+    "Cell":"./components/Cell/index"
   },
   "tabBar": {
     "color": "#333333",

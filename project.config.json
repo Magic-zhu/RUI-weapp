@@ -68,6 +68,20 @@
 					"id": -1,
 					"name": "popup",
 					"pathName": "pages/Popup_Ex/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "cell",
+					"pathName": "pages/Cell_Ex/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Notify",
+					"pathName": "pages/Notify_Ex/index",
 					"scene": null
 				}
 			]
