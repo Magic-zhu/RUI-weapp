@@ -1,0 +1,10 @@
+<view class="modal">
+    <view class="top">
+        <image style="width:112rpx;height:112rpx;" src="{{image.warning}}" />
+        <view class="txt">请先完成身份信息认证</view>
+    </view>
+    <view class="bottom">
+        <view bindtap="progress" class="item">关闭</view>
+        <view bindtap="progress" data-type="renzheng" class="item">去认证</view>
+    </view>
+</view>

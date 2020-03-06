@@ -9,7 +9,8 @@
     "pages/Popup_Ex/index",
     "pages/Curtain_Ex/index",
     "pages/Image_Ex/index",
-    "pages/form/index"
+    "pages/form/index",
+    "pages/business/index"
   ],
   "window": {
     "navigationStyle": "custom",
@@ -51,7 +52,7 @@
         "selectedIconPath": "/assets/form_on.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/business/index",
         "text": "业务组件",
         "iconPath": "/assets/business_off.png",
         "selectedIconPath": "/assets/business_on.png"
