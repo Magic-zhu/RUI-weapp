@@ -7,7 +7,9 @@
     "pages/Cell_Ex/index",
     "pages/feedback/index",
     "pages/Popup_Ex/index",
-    "pages/Curtain_Ex/index"
+    "pages/Curtain_Ex/index",
+    "pages/Image_Ex/index",
+    "pages/form/index"
   ],
   "window": {
     "navigationStyle": "custom",
@@ -23,8 +25,8 @@
     "Container": "./components/Container/index",
     "Notify": "./components/Notify/index",
     "Popup": "./components/Popup/index",
-    "Curtain":"./components/curtain/index",
-    "Cell":"./components/Cell/index"
+    "Curtain": "./components/curtain/index",
+    "Cell": "./components/Cell/index"
   },
   "tabBar": {
     "color": "#333333",
