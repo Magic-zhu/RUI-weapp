@@ -26,7 +26,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.10.2",
 	"appid": "wx00698b8482e6bdf8",
-	"projectname": "template-weapp",
+	"projectname": "RUI-weapp",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -82,6 +82,13 @@
 					"id": -1,
 					"name": "Notify",
 					"pathName": "pages/Notify_Ex/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "Icon",
+					"pathName": "pages/Icon_Ex/index",
 					"scene": null
 				}
 			]

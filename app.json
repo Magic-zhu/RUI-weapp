@@ -10,7 +10,8 @@
     "pages/Curtain_Ex/index",
     "pages/Image_Ex/index",
     "pages/form/index",
-    "pages/business/index"
+    "pages/business/index",
+    "pages/Icon_Ex/index"
   ],
   "window": {
     "navigationStyle": "custom",
@@ -27,7 +28,8 @@
     "Notify": "./components/Notify/index",
     "Popup": "./components/Popup/index",
     "Curtain": "./components/curtain/index",
-    "Cell": "./components/Cell/index"
+    "Cell": "./components/Cell/index",
+    "Icon": "./components/Icon/index"
   },
   "tabBar": {
     "color": "#333333",
@@ -46,7 +48,7 @@
         "selectedIconPath": "/assets/feedback_on.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/form/index",
         "text": "表单组件",
         "iconPath": "/assets/form_off.png",
         "selectedIconPath": "/assets/form_on.png"

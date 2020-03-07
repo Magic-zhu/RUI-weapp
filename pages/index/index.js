@@ -28,6 +28,10 @@ Page({
       {
         name: "Image",
         path: "/pages/Image_Ex/index"
+      },
+      {
+        name:"Icon",
+        path:"/pages/Icon_Ex/index"
       }
     ]
   },

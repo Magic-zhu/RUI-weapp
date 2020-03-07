@@ -10,25 +10,9 @@ Page({
     },
     list: [
       {
-        name: "Button",
-        path: "/pages/Button_Ex/index"
+        name: "Modal",
+        path: "/pages/Modal_Ex/index"
       },
-      {
-        name: "Cell",
-        path: "/pages/Cell_Ex/index"
-      },
-      {
-        name: "Popup",
-        path: "/pages/Popup_Ex/index"
-      },
-      {
-        name: "Curtain",
-        path: "/pages/Curtain_Ex/index"
-      },
-      {
-        name: "Image",
-        path: "/pages/Image_Ex/index"
-      }
     ]
   },
   onLoad() {

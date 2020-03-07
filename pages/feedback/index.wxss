@@ -25,10 +25,10 @@
 .base_wrapper .base_item .icon {
   width: 50rpx;
   height: 50rpx;
-  background-color: #13227a;
+  background-color: lightgreen;
   border-radius: 25rpx;
   color: white;
-  box-shadow: 0 0 10px 4px  #13227a;
+  box-shadow: 0 0 10px 4px  lightgreen;
   display: flex;
   align-items: center;
   justify-content: center;
