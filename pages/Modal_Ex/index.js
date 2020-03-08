@@ -1,4 +1,4 @@
-// pages/Image_Ex/index.js
+// pages/Modal_Ex/index.js
 Page({
 
   /**
@@ -6,7 +6,7 @@ Page({
    */
   data: {
     navBarOptions: {
-      barTitleText: "image示例",
+      barTitleText: "modal示例",
       frontColor: "#000000",
     },
   },
@@ -29,7 +29,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    this.selectComponent('#modal').open();
   },
 
   /**

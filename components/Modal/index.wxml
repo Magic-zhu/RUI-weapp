@@ -1,10 +1,13 @@
-<view class="modal">
-    <view class="top">
-        <image style="width:112rpx;height:112rpx;" src="{{image.warning}}" />
-        <view class="txt">请先完成身份信息认证</view>
-    </view>
-    <view class="bottom">
-        <view bindtap="progress" class="item">关闭</view>
-        <view bindtap="progress" data-type="renzheng" class="item">去认证</view>
+<view class="modal" wx:if='{{visible}}'>
+    <view class="black_bg" animation='{{animationBg}}'></view>
+    <view class="box" animation='{{animation}}'>
+      <view class="top">
+        <image style="width:112rpx;height:112rpx;" src="./{{type}}.png" />
+        <view class="txt">{{content}}</view>
+      </view>
+      <view class="bottom">
+          <view bindtap="cancel" class="item" hover-class="grey">{{cancelText}}</view>
+          <view bindtap="confirm" class="item" hover-class="grey">{{confirmText}}</view>
+      </view>
     </view>
 </view>

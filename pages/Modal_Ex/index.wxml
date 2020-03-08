@@ -1,0 +1,5 @@
+<Container navBarOptions='{{navBarOptions}}'>
+  <view class="wrapper">
+    <Modal id='modal'></Modal>
+  </view>
+</Container>

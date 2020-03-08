@@ -1,0 +1,5 @@
+/* pages/Modal_Ex/index.wxss */
+.wrapper{
+  width: 100%;
+  height: 100%;
+}

@@ -5,7 +5,7 @@ const app = getApp()
 Page({
   data: {
     navBarOptions: {
-      barTitleText: "基础组件",
+      barTitleText: "反馈组件",
       frontColor: "#000000",
     },
     list: [
