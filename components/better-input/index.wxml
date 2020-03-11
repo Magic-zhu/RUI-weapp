@@ -1,0 +1,3 @@
+<view class="better_input">
+  <input value='' style="custom"></input>
+</view>
