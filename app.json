@@ -22,13 +22,13 @@
     "navigationBarTextStyle": "black"
   },
   "usingComponents": {
-    "better-image": "./components/BetterImage/BetterImage",
-    "better-nav": "./components/BetterNav/BetterNav",
-    "better-button": "./components/BetterButton/index",
+    "better-image": "./components/better-image/BetterImage",
+    "better-nav": "./components/better-nav/BetterNav",
+    "better-button": "./components/better-button/index",
     "Container": "./components/Container/index",
     "Notify": "./components/Notify/index",
     "Popup": "./components/Popup/index",
-    "Curtain": "./components/curtain/index",
+    "Curtain": "./components/Curtain/index",
     "Cell": "./components/Cell/index",
     "Icon": "./components/Icon/index",
     "Modal": "./components/Modal/index"
@@ -54,6 +54,12 @@
         "text": "业务组件",
         "iconPath": "/assets/business_off.png",
         "selectedIconPath": "/assets/business_on.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "关于",
+        "iconPath": "./assets/about_off.png",
+        "selectedIconPath": "./assets/about_on.png"
       }
     ]
   },
