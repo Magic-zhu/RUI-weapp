@@ -96,6 +96,13 @@
 					"id": -1,
 					"name": "modal",
 					"pathName": "pages/Modal_Ex/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "about",
+					"pathName": "pages/about/index",
 					"scene": null
 				}
 			]
