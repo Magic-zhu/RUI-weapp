@@ -35,18 +35,18 @@
   box-sizing: border-box;
 }
 .better_nav_wrapper .better_nav_menu .back {
-  width: 35rpx;
-  height: 35rpx;
+  width: 17.5px;
+  height: 17.5px;
   margin-left: 5px;
 }
 .better_nav_wrapper .better_nav_menu .line {
   background-color: #333333;
-  width: 2rpx;
-  height: 33.33333333rpx;
+  width: 1px;
+  height: 16.66666667px;
 }
 .better_nav_wrapper .better_nav_menu .home {
-  width: 30rpx;
-  height: 30rpx;
+  width: 15px;
+  height: 15px;
 }
 .better_nav_wrapper .better_nav_menu_white {
   background-color: rgba(255, 255, 255, 0.57);
@@ -70,6 +70,6 @@
   box-sizing: border-box;
 }
 .better_nav_wrapper .better_nav_home image {
-  width: 30rpx;
-  height: 30rpx;
+  width: 15px;
+  height: 15px;
 }
