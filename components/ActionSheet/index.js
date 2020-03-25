@@ -7,7 +7,7 @@ Component({
         },
         showCancel:{
             type:Boolean,
-            value:false,
+            value:true,
         }
     },
     data: {
@@ -27,8 +27,9 @@ Component({
         show(){
             this.selectComponent('#magic_popup').show()
         },
-        commonTap(){
-
+        commonTap(e){
+            let {index} = e.currentTarget.dataset;
+            this.triggerEvent('onTap',index);
         },
         hide(){
             this.selectComponent('#magic_popup').hide()

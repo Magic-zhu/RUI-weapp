@@ -36,5 +36,11 @@ Page({
     },
     openbox2(){
         this.selectComponent('#ActionSheet2').show()
+    },
+    choose(e){
+        wx.showToast({
+            title: `你点击了第${e.detail}个`,
+            icon: 'none',
+        });
     }
 })
