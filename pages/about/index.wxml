@@ -1,15 +1,18 @@
 <Container navBarOptions='{{navBarOptions}}'>
-    <view class='about'>
-        <view class="des" style="color:lightblue">组件库会一直更新维护</view>
-        <view class="title">安装方式:</view>
-        <view class="des">通过脚手架的方式安装 可以去npm搜索 <text class="patch">@magic-zhu/ares</text> 详细的安装请查看脚手架weapp部分的说明</view>
-        <view class="subtitle">为什么不是npm 包的安装方式？</view>
-        <view class="des">因为 每个人或者每个项目对组件的需求或多或少有一些差异。
-            同时对于微信原生小程序来说 其实在开发阶段不需要代码压缩的方式。所以不如直接把源码注入到项目。这样可以方便修改源码，对需要的部分定制。
-            实现少即是多的初衷。
-        </view>
-        <view class="tips">可以搭配 vscode插件 rui-weapp使用</view>
-    </view>
-</Container>
+	<view class='about'>
+		<view class="title">⚙️安装方式:</view>
+		<view class="des">通过脚手架的方式安装 可以去npm搜索
+			<text class="patch">@magic-zhu/ares</text>
+			详细的使用请查看脚手架weapp部分的说明
+		</view>
+		<view class="subtitle">❓为什么不是npm 包的安装方式</view>
+		<view class="des">因为 每个人或者每个项目对组件的需求或多或少有一些差异。
+			同时对于微信原生小程序来说 其实在开发阶段不需要代码压缩的方式。所以不如直接把源码注入到项目。这样可以方便修改源码，对需要的部分定制。
+			实现少即是多的初衷。
+		</view>
 
+		<view class="des">😊组件库会一直更新维护😊</view>
+		<view class="tips">🚀可以搭配 vscode插件 rui-weapp-snippets使用</view>
+	</view>
+</Container>
 

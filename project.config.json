@@ -103,6 +103,13 @@
 					"id": -1,
 					"name": "about",
 					"pathName": "pages/about/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "ActionSheet",
+					"pathName": "pages/ActionSheet_Ex/index",
 					"scene": null
 				}
 			]

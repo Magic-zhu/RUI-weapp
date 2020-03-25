@@ -13,6 +13,10 @@ Page({
         name: "Notify",
         path: "/pages/Notify_Ex/index"
       },
+      {
+        name: "ActionSheet",
+        path: "/pages/ActionSheet_Ex/index"
+      },
     ]
   },
   onLoad() {

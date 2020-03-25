@@ -13,7 +13,8 @@
     "pages/business/index",
     "pages/Icon_Ex/index",
     "pages/Modal_Ex/index",
-    "pages/about/index"
+    "pages/about/index",
+    "pages/ActionSheet_Ex/index"
   ],
   "window": {
     "navigationStyle": "custom",
@@ -32,7 +33,8 @@
     "Curtain": "./components/Curtain/index",
     "Cell": "./components/Cell/index",
     "Icon": "./components/Icon/index",
-    "Modal": "./components/Modal/index"
+    "Modal": "./components/Modal/index",
+    "ActionSheet": "./components/ActionSheet/index"
   },
   "tabBar": {
     "color": "#333333",

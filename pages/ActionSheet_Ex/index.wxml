@@ -1,0 +1,11 @@
+<Container navBarOptions='{{navBarOptions}}'>
+    <view class='ActionSheet'>
+        <view class="label">基础用法</view>
+        <better-button text='弹出菜单' onTap='openbox1'></better-button>
+        <view class="label">展示取消按钮</view>
+        <better-button text='弹出菜单' onTap='openbox2'></better-button>
+
+        <ActionSheet id="ActionSheet1" list='{{["选项1","选项2"]}}'></ActionSheet>
+        <ActionSheet id="ActionSheet2" list='{{["选项1","选项2"]}}' showCancel='{{true}}'></ActionSheet>
+    </view>
+</Container>
