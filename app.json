@@ -1,71 +1,50 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/Notify_Ex/index",
-    "pages/Button_Ex/index",
-    "pages/Cell_Ex/index",
-    "pages/feedback/index",
-    "pages/Popup_Ex/index",
-    "pages/Curtain_Ex/index",
-    "pages/Image_Ex/index",
-    "pages/form/index",
-    "pages/business/index",
-    "pages/Icon_Ex/index",
-    "pages/Modal_Ex/index",
-    "pages/about/index",
-    "pages/ActionSheet_Ex/index"
-  ],
-  "window": {
-    "navigationStyle": "custom",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "自定义标题",
-    "navigationBarTextStyle": "black"
-  },
-  "usingComponents": {
-    "better-image": "./components/better-image/BetterImage",
-    "better-nav": "./components/better-nav/BetterNav",
-    "better-button": "./components/better-button/index",
-    "Container": "./components/Container/index",
-    "Notify": "./components/Notify/index",
-    "Popup": "./components/Popup/index",
-    "Curtain": "./components/Curtain/index",
-    "Cell": "./components/Cell/index",
-    "Icon": "./components/Icon/index",
-    "Modal": "./components/Modal/index",
-    "ActionSheet": "./components/ActionSheet/index"
-  },
-  "tabBar": {
-    "color": "#333333",
-    "selectedColor": "#13227a",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "基础组件",
-        "iconPath": "/assets/base_off.png",
-        "selectedIconPath": "/assets/base_on.png"
-      },
-      {
-        "pagePath": "pages/feedback/index",
-        "text": "反馈组件",
-        "iconPath": "/assets/feedback_off.png",
-        "selectedIconPath": "/assets/feedback_on.png"
-      },
-      {
-        "pagePath": "pages/business/index",
-        "text": "业务组件",
-        "iconPath": "/assets/business_off.png",
-        "selectedIconPath": "/assets/business_on.png"
-      },
-      {
-        "pagePath": "pages/about/index",
-        "text": "关于",
-        "iconPath": "./assets/about_off.png",
-        "selectedIconPath": "./assets/about_on.png"
-      }
-    ]
-  },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "pages": ["pages/index/index", "pages/logs/logs", "pages/Notify_Ex/index", "pages/Button_Ex/index", "pages/Cell_Ex/index", "pages/feedback/index", "pages/Popup_Ex/index", "pages/Curtain_Ex/index", "pages/Image_Ex/index", "pages/form/index", "pages/business/index", "pages/Icon_Ex/index", "pages/Modal_Ex/index", "pages/about/index", "pages/ActionSheet_Ex/index", "pages/Canvas_Ex/index"],
+    "window": {
+        "navigationStyle": "custom",
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "自定义标题",
+        "navigationBarTextStyle": "black"
+    },
+    "usingComponents": {
+        "better-image": "./components/better-image/BetterImage",
+        "better-nav": "./components/better-nav/BetterNav",
+        "better-button": "./components/better-button/index",
+        "Container": "./components/Container/index",
+        "Notify": "./components/Notify/index",
+        "Popup": "./components/Popup/index",
+        "Curtain": "./components/Curtain/index",
+        "Cell": "./components/Cell/index",
+        "Icon": "./components/Icon/index",
+        "Modal": "./components/Modal/index",
+        "ActionSheet": "./components/ActionSheet/index"
+    },
+    "tabBar": {
+        "color": "#333333",
+        "selectedColor": "#13227a",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "基础组件",
+            "iconPath": "/assets/base_off.png",
+            "selectedIconPath": "/assets/base_on.png"
+        }, {
+            "pagePath": "pages/feedback/index",
+            "text": "反馈组件",
+            "iconPath": "/assets/feedback_off.png",
+            "selectedIconPath": "/assets/feedback_on.png"
+        }, {
+            "pagePath": "pages/business/index",
+            "text": "业务组件",
+            "iconPath": "/assets/business_off.png",
+            "selectedIconPath": "/assets/business_on.png"
+        }, {
+            "pagePath": "pages/about/index",
+            "text": "关于",
+            "iconPath": "./assets/about_off.png",
+            "selectedIconPath": "./assets/about_on.png"
+        }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
 }

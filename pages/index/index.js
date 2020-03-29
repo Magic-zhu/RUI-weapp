@@ -32,7 +32,11 @@ Page({
       {
         name:"Icon",
         path:"/pages/Icon_Ex/index"
-      }
+      },
+      {
+        name:"Canvas",
+        path:"/pages/Canvas_Ex/index"
+      },
     ]
   },
   onLoad() {
