@@ -8,6 +8,10 @@
         bindload="loadImage"
     />
   <view class='better_image_bg' style="opacity:{{ready?0:1}}">
-    <image src='./waiting.gif' class='' />
+        <view class='loading'>
+            <view class='loading-view loading1'></view>
+            <view class='loading-view loading2'></view>
+            <view class='loading-view loading3'></view>
+        </view>
   </view>
 </view>

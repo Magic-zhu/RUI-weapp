@@ -23,3 +23,41 @@
   width: 40rpx;
   height: 40rpx;
 }
+.better_image .loading {
+  width: 150rpx;
+  height: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.better_image .loading .loading-view {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 15px;
+  margin-right: 10rpx;
+  background: #2C7BBE;
+  animation: load 1.2s ease-in-out infinite alternate-reverse;
+}
+@keyframes load {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.better_image .loading .loading1 {
+  animation-delay: 0.2s;
+}
+.better_image .loading .loading2 {
+  animation-delay: 0.4s;
+}
+.better_image .loading .loading3 {
+  animation-delay: 0.6s;
+}
