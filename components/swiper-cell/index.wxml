@@ -1,0 +1,13 @@
+<view class="swiper-cell" style="height:{{height}}">
+    <view class="action" catch:tap='handleTap'>删除</view>
+    <view class="cell-item" 
+        bind:touchmove="move" 
+        bind:touchstart="start" 
+        bind:touchend='end' 
+        style="left:{{left}}px" 
+        animation='{{animation}}'
+        catch:longpress="handleLongTap"
+    >
+        <slot></slot>
+    </view>
+</view>
