@@ -18,7 +18,8 @@
         "Cell": "./components/Cell/index",
         "Icon": "./components/Icon/index",
         "Modal": "./components/Modal/index",
-        "ActionSheet": "./components/ActionSheet/index"
+        "ActionSheet": "./components/ActionSheet/index",
+        "swiper-cell":"./components/swiper-cell/index"
     },
     "tabBar": {
         "color": "#333333",

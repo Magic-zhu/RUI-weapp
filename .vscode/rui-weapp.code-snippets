@@ -10,9 +10,17 @@
 		"scope": "wxml",
 		"prefix": "rui-bb",
 		"body": [
-			"<better-button text='$1'/>",
+			"<better-button text='$1' bind:onTap='$2' />",
 		],
 		"description": "better-button组件"
+	},
+	"better-image":{
+		"scope": "wxml",
+		"prefix": "rui-bi",
+		"body": [
+			"<better-image src='$1' width='$2' height='$3' />",
+		],
+		"description": "better-image组件"
 	},
 	"canvas": {
 		"scope": "wxml",

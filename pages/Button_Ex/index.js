@@ -11,10 +11,13 @@ Page({
     },
     ex_pa:{
       text:"我是参数"
+    },
+    options:{
+      openType:'share'
     }
   },
   btnTap(e){
-    let {params} = wx.$.get(e.detail);
+    let {params} = wx.$.get(e);
     wx.showToast({
       title: '点击了 参数是：'+params.text,
       icon: 'none'
