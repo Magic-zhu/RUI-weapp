@@ -1,0 +1,20 @@
+<view class="follow_bar">
+    <view class='box'>
+        <view class="follow_box">
+            <view class="item" wx:for="{{data}}" wx:key='followitem'>
+                <view class="ava">
+                    <image class='ava_image' src="{{item.members.avatar_url}}" />
+                </view>
+                <view class="nickname">
+                    {{item.members.nickname}}
+                </view>
+                <view class="follow" wx:if="{{item.attention_status==0}}" catch:tap='handleTap' data-index='{{index}}'>
+                    关注
+                </view>
+                <view class="unfollow" wx:else catch:tap='handleTap' data-index='{{index}}'>
+                    已关注
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -42,7 +42,7 @@ Component({
                 return null
             }
             this.state.position = e.changedTouches[0].clientX - this.state.x;
-            this.state.left = this.state.now + this.state.position;
+            this.state.left = this.state.now + this.state.position/2;
             if(this.state.left>=-20){
                 this.state.left = 0;
             }

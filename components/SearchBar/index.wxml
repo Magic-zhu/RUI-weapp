@@ -1,0 +1,16 @@
+<view class="search-bar">
+    <image src="./searchIcon.png" class="search_icon"/>
+    <input 
+        value='{{inputValue}}' 
+        class="input"
+        placeholder-class="input-placeholder"
+        placeholder="{{placeholder}}"
+        bindblur="handleBlur"
+        bindinput="handleInput"
+        bindconfirm="handleConfirm"
+        confirm-type='search'
+        hold-keyboard
+        disabled="{{disabled}}"
+    />
+    <image src="./close.png" class="close" wx:if="{{inputValue!=''}}" catch:tap="clear"/>
+</view>

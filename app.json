@@ -1,5 +1,5 @@
 {
-    "pages": ["pages/index/index", "pages/logs/logs", "pages/Notify_Ex/index", "pages/Button_Ex/index", "pages/Cell_Ex/index", "pages/feedback/index", "pages/Popup_Ex/index", "pages/Curtain_Ex/index", "pages/Image_Ex/index", "pages/form/index", "pages/business/index", "pages/Icon_Ex/index", "pages/Modal_Ex/index", "pages/about/index", "pages/ActionSheet_Ex/index", "pages/Canvas_Ex/index"],
+    "pages": ["pages/index/index", "pages/logs/logs", "pages/Notify_Ex/index", "pages/Button_Ex/index", "pages/Cell_Ex/index", "pages/feedback/index", "pages/Popup_Ex/index", "pages/Curtain_Ex/index", "pages/Image_Ex/index", "pages/form/index", "pages/business/index", "pages/Icon_Ex/index", "pages/Modal_Ex/index", "pages/about/index", "pages/ActionSheet_Ex/index", "pages/Canvas_Ex/index", "pages/Qrcode_Ex/index", "pages/BarCode_Ex/index"],
     "window": {
         "navigationStyle": "custom",
         "backgroundTextStyle": "light",
@@ -19,7 +19,7 @@
         "Icon": "./components/Icon/index",
         "Modal": "./components/Modal/index",
         "ActionSheet": "./components/ActionSheet/index",
-        "swiper-cell":"./components/swiper-cell/index"
+        "Qrcode":"./components/QrCode/index"
     },
     "tabBar": {
         "color": "#333333",

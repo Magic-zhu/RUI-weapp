@@ -1,0 +1,8 @@
+<Container navBarOptions='{{navBarOptions}}'>
+    <view class='qrcode'>
+        <view>
+            <text>1234567890</text>
+            <image src="" />
+        </view>
+    </view>
+</Container>

@@ -10,7 +10,6 @@
 			同时对于微信原生小程序来说 其实在开发阶段不需要代码压缩的方式。所以不如直接把源码注入到项目。这样可以方便修改源码，对需要的部分定制。
 			实现少即是多的初衷。
 		</view>
-
 		<view class="des">😊组件库会一直更新维护😊</view>
 		<view class="tips">🚀可以搭配 vscode插件 rui-weapp-snippets使用</view>
 	</view>

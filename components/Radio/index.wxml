@@ -1,0 +1,7 @@
+<view class="radio" catch:tap="changeStatus" style="height:{{size}};">
+    <view class="box" style="width:{{size}};height:{{size}};">
+        <image src="./radio.png" class="image" wx:if="{{!isChecked}}" />
+        <image src="./radio_checked.png" class="image" wx:if="{{isChecked}}" />
+    </view>
+    <view class="label" style="color:{{color}}">{{label}}</view>
+</view>

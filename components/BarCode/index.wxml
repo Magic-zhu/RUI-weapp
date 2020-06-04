@@ -1,0 +1,3 @@
+<view class="BarCode">
+    <canvas canvas-id="barcode" />
+</view>
