@@ -6,20 +6,14 @@
     align-items: center;
     padding: 40rpx 20rpx;
     box-sizing: border-box;
+    .logo{
+        margin: 0rpx auto 40rpx;
+        width: 503rpx;
+        height: 180rpx;
+    }
     .base_item{
-        width: 690rpx;
-        height: 140rpx;
-        border-radius: 12rpx;
-        background-color: white;
-        box-shadow: 0 0 18px 4px #eeeeee;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        // padding: 0 40rpx;
-        padding-right: 40rpx;
-        box-sizing: border-box;
-        margin-bottom: 40rpx;
-        color: grey;
+        position: relative;
+        z-index: 1;
         .icon{
             width: 50rpx;
             height: 50rpx;
@@ -31,6 +25,35 @@
             align-items: center;
             justify-content: center;
             font-size: 26rpx;
+        }
+        .content{
+            width: 690rpx;
+            height: 140rpx;
+            border-radius: 12rpx;
+            background-color: white;
+            box-shadow: 0 0 18px 4px #eeeeee;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            // padding: 0 40rpx;
+            padding-right: 40rpx;
+            box-sizing: border-box;
+            margin-bottom: 40rpx;
+            color: grey;
+            font-size: 40rpx;
+        }
+        &::after{
+            z-index: -1;
+            position: absolute;
+            bottom: 78rpx;
+            right: 7rpx;
+            width: 75%;
+            height: 10rpx;
+            box-shadow: 0 30rpx 10rpx #000;
+            -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+            transition: all 150ms ease-in-out;
+            content:"";
         }
     }
 }

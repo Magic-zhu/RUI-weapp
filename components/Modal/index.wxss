@@ -43,7 +43,6 @@
 .modal .box .top {
   height: 280rpx;
   width: 100%;
-  border-bottom: 1px solid #DFDFDF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,6 +54,7 @@
 .modal .box .bottom {
   height: 88rpx;
   width: 100%;
+  border-top: 1px solid #DFDFDF;
   display: flex;
   align-items: center;
   justify-content: center;
