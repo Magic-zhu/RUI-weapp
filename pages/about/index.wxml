@@ -1,6 +1,8 @@
 <Container navBarOptions='{{navBarOptions}}'>
 	<view class='about'>
-		<view class="title">⚙️安装方式:</view>
+        <image class="logo" src="/assets/magic-logo.png"></image>
+        <view class="version">Version 1.0.0</view>
+		<!-- <view class="title">⚙️安装方式:</view>
 		<view class="des">通过脚手架的方式安装 可以去npm搜索
 			<text class="patch">@magic-zhu/ares</text>
 			详细的使用请查看脚手架weapp部分的说明
@@ -11,7 +13,7 @@
 			实现少即是多的初衷。
 		</view>
 		<view class="des">😊组件库会一直更新维护😊</view>
-		<view class="tips">🚀可以搭配 vscode插件 rui-weapp-snippets使用</view>
+		<view class="tips">🚀可以搭配 vscode插件 rui-weapp-snippets使用</view> -->
 	</view>
 </Container>
 

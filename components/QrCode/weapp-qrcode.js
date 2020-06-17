@@ -286,7 +286,8 @@ var QRCode;
             typeNumber: 4,
             colorDark: "#000000",
             colorLight: "#ffffff",
-            correctLevel: QRErrorCorrectLevel.H
+            correctLevel: QRErrorCorrectLevel.H,
+            success:null||vOption.success,
         };
 
         if (typeof vOption === 'string') {
@@ -395,29 +396,10 @@ var QRCode;
             }
         }
 
-        _oContext.draw()
-    };
-
-    // 保存为图片，将临时路径传给回调
-    QRCode.prototype.exportImage = function (callback) {
-        if (!callback) {
-            return
-        }
-        wx.canvasToTempFilePath({
-            x: 0,
-            y: 0,
-            width: this._htOption.width,
-            height: this._htOption.height,
-            destWidth: this._htOption.width,
-            destHeight: this._htOption.height,
-            canvasId: this.canvasId,
-            success: function (res) {
-                console.log(res.tempFilePath)
-                callback(res.tempFilePath)
-            }
+        _oContext.draw(false,()=>{
+            this._htOption.success &&  this._htOption.success()
         })
-    }
-
+    };
     QRCode.CorrectLevel = QRErrorCorrectLevel;
 })();
 

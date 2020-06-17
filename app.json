@@ -19,7 +19,7 @@
         "Icon": "./components/Icon/index",
         "Modal": "./components/Modal/index",
         "ActionSheet": "./components/ActionSheet/index",
-        "Qrcode": "./components/QrCode/index"
+        "magic-qrcode": "./components/QrCode/index"
     },
     "tabBar": {
         "color": "#333333",

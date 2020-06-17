@@ -1,0 +1,4 @@
+<view class="wrapper-qrcode" style="width:{{width}}rpx;height:{{height}}rpx">
+    <canvas canvas-id='container' style="width:{{width}}px;height:{{height}}px;opacity:0;" wx:if="{{imageFilePath==''}}"/>
+    <image src="{{imageFilePath}}" style="width:100%;height:100%;" wx:else/>
+</view>

@@ -1,4 +1,7 @@
 <Container navBarOptions='{{navBarOptions}}'>
-    <view class=''>
+    <view class='wrapper-canvas-ex'>
+        <magic-qrcode 
+            code='123456'
+        />
     </view>
 </Container>

@@ -1,8 +1,5 @@
 <Container navBarOptions='{{navBarOptions}}'>
     <view class='qrcode'>
-        <view>
-            <text>1234567890</text>
-            <image src="" />
-        </view>
+        <magic-qrcode code='123456' width='{{500}}' height='{{500}}' />
     </view>
 </Container>
