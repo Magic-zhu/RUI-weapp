@@ -7,8 +7,8 @@ Page({
           },
     },
     //options(Object)
-    onLoad: function(options){
-        
+    onTabItemTap() {
+        wx.vibrateShort();
     },
     onShow: function(){
         

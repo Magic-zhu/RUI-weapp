@@ -43,8 +43,8 @@ Page({
             },
         ]
     },
-    onLoad() {
-
+    onTabItemTap() {
+        wx.vibrateShort();
     },
     jump(e) {
         wx.$.click(() => {

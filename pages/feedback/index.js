@@ -19,9 +19,9 @@ Page({
       },
     ]
   },
-  onLoad() {
-
-  },
+  onTabItemTap() {
+    wx.vibrateShort();
+},
   jump(e) {
     wx.$.click(() => {
       let { index } = wx.$.get(e);

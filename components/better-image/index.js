@@ -19,6 +19,9 @@ Component({
     mode:{
       type: String,
       value: '',
+    },
+    defaultHeight:{
+        type: String,
     }
   },
 
@@ -34,7 +37,7 @@ Component({
    */
   methods: {
     loadImage(){
-      this.setData({ready:true})
+      this.setData({ready:true,defaultHeight:''})
     }
   }
 })

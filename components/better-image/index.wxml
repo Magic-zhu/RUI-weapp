@@ -1,5 +1,5 @@
 <!--components/BetterImage/BetterImage.wxml-->
-<view class='better_image' style="width:{{width}};">
+<view class='better_image' style="width:{{width}};height:{{defaultHeight}}">
   <image 
         src="{{src}}" 
         mode="{{mode}}" 
