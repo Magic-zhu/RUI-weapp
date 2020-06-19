@@ -5,7 +5,7 @@ Page({
    */
   data: {
         navBarOptions:{
-            barTitleText:"这里填写标题",
+            barTitleText:"barcode示例",
             frontColor:"#000000"
         },
   },

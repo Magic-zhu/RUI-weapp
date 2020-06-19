@@ -19,7 +19,8 @@
         "Icon": "./components/Icon/index",
         "Modal": "./components/Modal/index",
         "ActionSheet": "./components/ActionSheet/index",
-        "magic-qrcode": "./components/QrCode/index"
+        "magic-qrcode": "./components/QrCode/index",
+        "magic-barcode":"./components/BarCode/index"
     },
     "tabBar": {
         "color": "#333333",

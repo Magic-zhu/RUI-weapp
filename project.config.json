@@ -120,6 +120,13 @@
 					"id": -1,
 					"name": "二维码",
 					"pathName": "pages/Qrcode_Ex/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "条形码",
+					"pathName": "pages/BarCode_Ex/index",
 					"scene": null
 				}
 			]

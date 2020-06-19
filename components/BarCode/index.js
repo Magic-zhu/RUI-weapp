@@ -1,18 +1,27 @@
 //Component Object
+const barcode = require('./barcode');
 Component({
     properties: {
-        myProperty:{
+        code:{
             type:String,
             value:'',
-            observer: function(){}
         },
-
+        width:{
+            type:Number,
+            value:300,
+        },
+        height:{
+            type:Number,
+            value:150,
+        },
     },
     data: {
 
     },
     lifetimes:{
-        attached: function () { },
+        attached: function () {
+            this.create()
+        },
         moved: function () { },
         detached: function () { },
     },
@@ -22,6 +31,9 @@ Component({
         resize: function () { },
     },
     methods: {
-        
+        create(){
+            let ctx = wx.createCanvasContext(container, this);
+            barcode(ctx,this.properties.code,this.properties.width,this.properties.height);
+        }      
     },
 });

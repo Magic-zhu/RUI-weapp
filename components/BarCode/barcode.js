@@ -31,38 +31,41 @@ function getBytes(str) {
 }
 
 exports.code128 = function (ctx, text, width, height) {
+    return new Promise(resolve=>{
+        width = parseInt(width);
 
-    width = parseInt(width);
-
-    height = parseInt(height);
-
-    var codes = stringToCode128(text);
-
-    var g = new Graphics(ctx, width, height);
-
-    var barWeight = g.area.width / ((codes.length - 3) * 11 + 35);
-
-    var x = g.area.left;
-    var y = g.area.top;
-    for (var i = 0; i < codes.length; i++) {
-        var c = codes[i];
-        //two bars at a time: 1 black and 1 white
-        for (var bar = 0; bar < 8; bar += 2) {
-            var barW = PATTERNS[c][bar] * barWeight;
-            // var barH = height - y - this.border;
-            var barH = height - y;
-            var spcW = PATTERNS[c][bar + 1] * barWeight;
-
-            //no need to draw if 0 width
-            if (barW > 0) {
-                g.fillFgRect(x, y, barW, barH);
+        height = parseInt(height);
+    
+        var codes = stringToCode128(text);
+    
+        var g = new Graphics(ctx, width, height);
+    
+        var barWeight = g.area.width / ((codes.length - 3) * 11 + 35);
+    
+        var x = g.area.left;
+        var y = g.area.top;
+        for (var i = 0; i < codes.length; i++) {
+            var c = codes[i];
+            //two bars at a time: 1 black and 1 white
+            for (var bar = 0; bar < 8; bar += 2) {
+                var barW = PATTERNS[c][bar] * barWeight;
+                // var barH = height - y - this.border;
+                var barH = height - y;
+                var spcW = PATTERNS[c][bar + 1] * barWeight;
+    
+                //no need to draw if 0 width
+                if (barW > 0) {
+                    g.fillFgRect(x, y, barW, barH);
+                }
+    
+                x += barW + spcW;
             }
-
-            x += barW + spcW;
         }
-    }
-
-    ctx.draw();
+    
+        ctx.draw(false,()=>{
+            resolve()
+        });
+    })
 }
 
 

@@ -1,4 +1,5 @@
 <Container navBarOptions='{{navBarOptions}}'>
-    <view class=''>
+    <view class='barcode_ex'>
+        <magic-barcode />
     </view>
 </Container>
