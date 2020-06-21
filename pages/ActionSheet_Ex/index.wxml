@@ -1,9 +1,9 @@
 <Container navBarOptions='{{navBarOptions}}'>
     <view class='ActionSheet'>
         <view class="label">基础用法</view>
-        <better-button text='弹出菜单' onTap='openbox1'></better-button>
+        <magic-button text='弹出菜单' onTap='openbox1'></magic-button>
         <view class="label">不展示取消按钮</view>
-        <better-button text='弹出菜单' onTap='openbox2'></better-button>
+        <magic-button text='弹出菜单' onTap='openbox2'></magic-button>
 
         <ActionSheet id="ActionSheet1" list='{{["选项1","选项2"]}}' bindonTap='choose' ></ActionSheet>
         <ActionSheet id="ActionSheet2" list='{{["选项1","选项2"]}}' showCancel='{{false}}'></ActionSheet>

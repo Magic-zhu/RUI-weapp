@@ -1,4 +1,4 @@
-// components/BetterImage/BetterImage.js
+// components/magicImage/magicImage.js
 Component({
   /**
    * 组件的属性列表

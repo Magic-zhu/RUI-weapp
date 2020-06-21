@@ -4,7 +4,7 @@
             <image class="logo" src="/assets/magic-logo.png"></image>
             <view class='base_item' wx:for='{{list}}' wx:key='index' bindtap='jump'  data-index='{{index}}'>
                 <view class='content'>
-                    <better-image src='/assets/base_on.png' width='100rpx' height='100rpx'></better-image>
+                    <magic-image src='/assets/base_on.png' width='100rpx' height='100rpx'></magic-image>
                     <view>{{item.name}}</view>
                     <view class='icon'>Go</view>
                 </view>

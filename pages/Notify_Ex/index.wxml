@@ -3,23 +3,23 @@
   <view style="padding:40rpx">
     <view class='label'>成功通知</view>
     <view class='box'>
-      <better-button onTap='btnTap' text='成功通知'></better-button>
+      <magic-button onTap='btnTap' text='成功通知'></magic-button>
     </view>
     <view class='label'>失败通知</view>
     <view class='box'>
-      <better-button onTap='btnTap1' text='失败通知'></better-button>
+      <magic-button onTap='btnTap1' text='失败通知'></magic-button>
     </view>
     <view class='label'>警告通知</view>
     <view class='box'>
-      <better-button onTap='btnTap2' text='警告通知'></better-button>
+      <magic-button onTap='btnTap2' text='警告通知'></magic-button>
     </view>
     <view class='label'>信息</view>
     <view class='box'>
-      <better-button onTap='btnTap3' text='信息'></better-button>
+      <magic-button onTap='btnTap3' text='信息'></magic-button>
     </view>
     <view class='label'>自定义</view>
     <view class='box'>
-      <better-button onTap='btnTap4' text='自定义'></better-button>
+      <magic-button onTap='btnTap4' text='自定义'></magic-button>
     </view>
   </view>
   <Notify id='nf' />

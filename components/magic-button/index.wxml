@@ -1,8 +1,8 @@
-<!--components/BetterButton/index.wxml-->
+<!--components/magicButton/index.wxml-->
 <view 
-    class='better-button {{disabled?"better-button-disabled":""}}' 
-    style='{{custom||""}}' 
-    hover-class='{{disabled?"":"better-button-hover"}}'
+    class='magic-button {{disabled?"magic-button-disabled":""}}' 
+    style='{{customStyle||""}}' 
+    hover-class='{{disabled?"":"magic-button-hover"}}'
     hover-stay-time='100'
     disabled="{{disabled}}"
     >

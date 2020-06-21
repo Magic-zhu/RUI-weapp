@@ -1,13 +1,13 @@
-.better_image {
+.magic_image {
   width: 100%;
   overflow: hidden;
   position: relative;
 }
-.better_image .better_image_body {
+.magic_image .magic_image_body {
   width: 100%;
   display: block;
 }
-.better_image .better_image_bg {
+.magic_image .magic_image_bg {
   width: 100%;
   height: 100%;
   display: flex;
@@ -19,18 +19,18 @@
   top: 0;
   font-size: 24rpx;
 }
-.better_image .better_image_bg Image {
+.magic_image .magic_image_bg Image {
   width: 40rpx;
   height: 40rpx;
 }
-.better_image .loading {
+.magic_image .loading {
   width: 150rpx;
   height: 30rpx;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.better_image .loading .loading-view {
+.magic_image .loading .loading-view {
   width: 30rpx;
   height: 30rpx;
   border-radius: 15px;
@@ -52,12 +52,12 @@
     transform: scale(1);
   }
 }
-.better_image .loading .loading1 {
+.magic_image .loading .loading1 {
   animation-delay: 0.2s;
 }
-.better_image .loading .loading2 {
+.magic_image .loading .loading2 {
   animation-delay: 0.4s;
 }
-.better_image .loading .loading3 {
+.magic_image .loading .loading3 {
   animation-delay: 0.6s;
 }

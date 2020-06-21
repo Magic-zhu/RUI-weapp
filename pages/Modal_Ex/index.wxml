@@ -1,8 +1,8 @@
 <Container navBarOptions='{{navBarOptions}}'>
   <view class="wrapper">
-    <better-button custom='margin-bottom:40rpx' onTap='tap1' text='打开成功弹窗'></better-button>
-    <better-button custom='margin-bottom:40rpx' onTap='tap2' text='打开失败弹窗'></better-button>
-    <better-button custom='margin-bottom:40rpx' onTap='tap3' text='打开信息弹窗'></better-button>
+    <magic-button custom='margin-bottom:40rpx' onTap='tap1' text='打开成功弹窗'></magic-button>
+    <magic-button custom='margin-bottom:40rpx' onTap='tap2' text='打开失败弹窗'></magic-button>
+    <magic-button custom='margin-bottom:40rpx' onTap='tap3' text='打开信息弹窗'></magic-button>
     <Modal id='modal1' type='success'></Modal>
     <Modal id='modal2' type='error'></Modal>
     <Modal id='modal3' type='warning'></Modal>

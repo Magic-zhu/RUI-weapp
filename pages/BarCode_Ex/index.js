@@ -9,26 +9,7 @@ Page({
             frontColor:"#000000"
         },
   },
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
-  },
-  onReady(){
-
-  },
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
+  getUrl(e){
+    console.log(e)
+  }
 })

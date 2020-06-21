@@ -6,28 +6,28 @@
 	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
 	// Placeholders with the same ids are connected.
 	// Example:
-	"better-button": {
+	"magic-button": {
 		"scope": "wxml",
 		"prefix": "rui-bb",
 		"body": [
-			"<better-button text='$1' bind:onTap='$2' />",
+			"<magic-button text='$1' bind:onTap='$2' />",
 		],
-		"description": "better-button组件"
+		"description": "magic-button组件"
 	},
-	"better-image":{
+	"magic-image":{
 		"scope": "wxml",
 		"prefix": "rui-bi",
 		"body": [
-			"<better-image src='$1' width='$2' height='$3' />",
+			"<magic-image src='$1' width='$2' height='$3' />",
 		],
-		"description": "better-image组件"
+		"description": "magic-image组件"
 	},
 	"canvas": {
 		"scope": "wxml",
 		"prefix": "log",
 		"body": [
-			"<better-button text='$1'/>",
+			"<magic-button text='$1'/>",
 		],
-		"description": "better-button组件"
+		"description": "magic-button组件"
 	}
 }

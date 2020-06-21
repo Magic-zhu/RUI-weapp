@@ -61,7 +61,6 @@ exports.code128 = function (ctx, text, width, height) {
                 x += barW + spcW;
             }
         }
-    
         ctx.draw(false,()=>{
             resolve()
         });

@@ -1,4 +1,4 @@
-// components/BetterNav/BetterNav.js
+// components/magicNav/magicNav.js
 Component({
     /**
      * 组件的属性列表

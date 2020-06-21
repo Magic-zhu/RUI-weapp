@@ -1,13 +1,13 @@
-<!--components/BetterImage/BetterImage.wxml-->
-<view class='better_image' style="width:{{width}};height:{{defaultHeight}}">
+<!--components/magicImage/magicImage.wxml-->
+<view class='magic_image' style="width:{{width}};height:{{defaultHeight}}">
   <image 
         src="{{src}}" 
         mode="{{mode}}" 
-        class='better_image_body' 
+        class='magic_image_body' 
         style='opacity:{{ready?1:0}};height:{{height}}' 
         bindload="loadImage"
     />
-  <view class='better_image_bg' style="opacity:{{ready?0:1}}">
+  <view class='magic_image_bg' style="opacity:{{ready?0:1}}">
         <view class='loading'>
             <view class='loading-view loading1'></view>
             <view class='loading-view loading2'></view>

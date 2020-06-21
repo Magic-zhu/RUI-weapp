@@ -1,5 +1,7 @@
 <Container navBarOptions='{{navBarOptions}}'>
     <view class='barcode_ex'>
-        <magic-barcode />
+        <view >
+            <magic-barcode code='12312313' bind:onFinish='getUrl' width='{{500}}' height='{{200}}'/>
+        </view>
     </view>
 </Container>

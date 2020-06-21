@@ -14,6 +14,14 @@ Page({
     },
     options:{
       openType:'share'
+    },
+    style1:{
+      'background-color':'pink',
+      'width':'300rpx',
+      'height':'200rpx'
+    },
+    style2:{
+      'background-color':'purple',
     }
   },
   btnTap(e){

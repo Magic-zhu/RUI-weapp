@@ -3,27 +3,27 @@
     <view class='button_ex'>
         <view class='label'>普通按钮</view>
         <view class='box'>
-            <better-button onTap='btnTap' data-params="{{ex_pa}}"></better-button>
+            <magic-button onTap='btnTap' data-params="{{ex_pa}}"></magic-button>
         </view>
         <view class='label'>禁止状态</view>
         <view class='box'>
-            <better-button text='禁止状态'  disabled></better-button>
+            <magic-button text='禁止状态'  disabled></magic-button>
         </view>
         <view class='label'>loading状态</view>
         <view class='box'>
-            <better-button text='loading状态' loading></better-button>
+            <magic-button text='loading状态' loading></magic-button>
         </view>
         <view class='label'>图片按钮</view>
         <view class='box'>
-            <better-button text='图片按钮'  image='/assets/imagebtn.png'></better-button>
+            <magic-button text='图片按钮'  image='/assets/imagebtn.png'></magic-button>
         </view>
         <view class='label'>完全自定义</view>
         <view class='box'>
-            <better-button text='完全自定义'  custom='background-color:pink;width:300rpx;height:200rpx'></better-button>
+            <magic-button text='完全自定义'  custom='{{style1}}'></magic-button>
         </view>
         <view class='label'>分享(特殊功能)</view>
         <view class='box'>
-            <better-button text='分享'  custom='background-color:purple;' options='{{options}}'></better-button>
+            <magic-button text='分享'  custom='{{style2}}' options='{{options}}'></magic-button>
         </view>        
     </view>
 </Container >

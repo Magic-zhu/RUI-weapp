@@ -8,9 +8,9 @@
         "navigationBarTextStyle": "black"
     },
     "usingComponents": {
-        "better-image": "./components/better-image/index",
-        "better-nav": "./components/better-nav/BetterNav",
-        "better-button": "./components/better-button/index",
+        "magic-image": "./components/magic-image/index",
+        "magic-nav": "./components/magic-nav/index",
+        "magic-button": "./components/magic-button/index",
         "Container": "./components/Container/index",
         "Notify": "./components/Notify/index",
         "Popup": "./components/Popup/index",
