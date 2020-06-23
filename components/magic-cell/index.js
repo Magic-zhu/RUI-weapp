@@ -1,36 +1,42 @@
-// components/magicButton/index.js
+// components/Cell/index.js
 Component({
+
     /**
      * 组件的属性列表
      */
     properties: {
-        text: {
+        icon_left: {
             type: String,
-            value: "普通按钮"
+        },
+        icon_right: {
+            type: String,
+        },
+        label: {
+            type: String,
+            value: "标题"
+        },
+        value: {
+            type: String,
+            value: "内容"
+        },
+        size: {
+            type: String,
+            value: "normal"
         },
         custom: {
             type: Object,
+            optionalTypes: [String],
         },
-        disabled: {
-            type: Boolean,
-            value: false,
-        },
-        image: {
-            type: String,
-        },
-        options: {
-            type: Object
-        },
-        loading: {
-            type: Boolean
-        },
+        customHover: {
+            type: String
+        }
     },
 
     /**
      * 组件的初始数据
      */
     data: {
-        customStyle: '',
+        customStyle: "",
     },
     observers: {
         "custom": function (target) {
@@ -53,22 +59,7 @@ Component({
      */
     methods: {
         handleTap(e) {
-            this.triggerEvent('Tap', e)
-        },
-        handleGetuserinfo(e) {
-            this.triggerEvent('onGetuserinfo', e)
-        },
-        handleContact(e) {
-            this.triggerEvent('onContact', e)
-        },
-        handlePhoneNumber(e) {
-            this.triggerEvent('onPhoneNumber', e)
-        },
-        handleOpenSetting(e) {
-            this.triggerEvent('onOpenSetting', e)
-        },
-        handleLaunchapp(e) {
-            this.triggerEvent('onLaunchapp', e)
+            this.triggerEvent('onTap', e);
         }
     }
 })

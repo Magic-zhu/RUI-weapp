@@ -24,7 +24,9 @@ class MagicCanvas {
 
     //元素
     box(options){
-
+        if(options.children){
+            
+        }
     }
 
     text(options){

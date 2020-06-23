@@ -22,6 +22,9 @@ Page({
   btnTap3(){
     this.selectComponent('#pop3').show();
   },
+  btnTap4(){
+    this.selectComponent('#pop4').show();
+  },
   /**
    * 生命周期函数--监听页面加载
    */

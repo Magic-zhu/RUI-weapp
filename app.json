@@ -15,7 +15,7 @@
         "Notify": "./components/Notify/index",
         "Popup": "./components/Popup/index",
         "Curtain": "./components/Curtain/index",
-        "Cell": "./components/Cell/index",
+        "magic-cell": "./components/magic-cell/index",
         "Icon": "./components/Icon/index",
         "Modal": "./components/Modal/index",
         "ActionSheet": "./components/ActionSheet/index",

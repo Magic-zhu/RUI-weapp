@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <Container navBarOptions='{{navBarOptions}}'>
     <view class='base_wrapper'>
-            <image class="logo" src="/assets/magic-logo.png"></image>
+            <image class="logo" src="/assets/magic-logo.png" animation='{{logoAnimation}}'></image>
             <view class='base_item' wx:for='{{list}}' wx:key='index' bindtap='jump'  data-index='{{index}}'>
                 <view class='content'>
                     <magic-image src='/assets/base_on.png' width='100rpx' height='100rpx'></magic-image>

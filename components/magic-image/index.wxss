@@ -19,10 +19,6 @@
   top: 0;
   font-size: 24rpx;
 }
-.magic_image .magic_image_bg Image {
-  width: 40rpx;
-  height: 40rpx;
-}
 .magic_image .loading {
   width: 150rpx;
   height: 30rpx;

@@ -7,7 +7,11 @@ Component({
         position: {
             type: String,
             value: 'bottom'
-        }
+        },
+        speed:{
+            type: Number,
+            value:200,
+        },
     },
     /**
      * 组件的初始数据
@@ -50,10 +54,10 @@ Component({
     methods: {
         enter() {
             let ani = wx.createAnimation({
-                duration: 200,
+                duration: this.properties.speed,
             })
             let ani_bg = wx.createAnimation({
-                duration: 200,
+                duration: this.properties.speed,
             })
             switch (this.properties.position) {
                 case 'left':
@@ -73,10 +77,10 @@ Component({
         },
         leave() {
             let ani = wx.createAnimation({
-                duration: 200,
+                duration: this.properties.speed,
             })
             let ani_bg = wx.createAnimation({
-                duration: 200,
+                duration: this.properties.speed,
             })
             switch (this.properties.position) {
                 case 'left':
@@ -98,13 +102,13 @@ Component({
             this.setData({ show: true });
             setTimeout(() => {
                 this.enter()
-            }, 200)
+            }, this.properties.speed)
         },
         hide() {
             this.leave();
             setTimeout(() => {
                 this.setData({ show: false });
-            }, 250)
+            }, this.properties.speed + 50)
         }
     }
 })

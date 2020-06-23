@@ -1,7 +1,5 @@
 //index.js
-//获取应用实例
-const app = getApp()
-
+import Ani from '../../components/magic-animation/animation'
 Page({
     data: {
         navBarOptions: {
@@ -41,7 +39,8 @@ Page({
                 name: "Icon",
                 path: "/pages/Icon_Ex/index"
             },
-        ]
+        ],
+        logoAnimation:null,
     },
     onTabItemTap() {
         wx.vibrateShort();

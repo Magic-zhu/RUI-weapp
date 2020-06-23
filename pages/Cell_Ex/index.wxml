@@ -1,45 +1,37 @@
 <!--pages/Cell_Ex/index.wxml-->
 <Container navBarOptions='{{navBarOptions}}'>
-  <view class="cell_ex">
-    <view class="label">不同尺寸</view>
-    <Cell 
-      icon_left='/assets/location.png' 
-      icon_right='/assets/right.png'
-      custom='color:#bfbfbf;border-bottom:2rpx solid grey;border-top:2rpx solid grey;'
-      size='small'
-      text_left="small" 
-      ></Cell>
-      <Cell 
-      icon_left='/assets/location.png' 
-      icon_right='/assets/right.png'
-      custom='color:#bfbfbf;border-bottom:2rpx solid grey;'
-      text_left="normal" 
-      ></Cell>
-      <Cell 
-      icon_left='/assets/location.png' 
-      icon_right='/assets/right.png'
-      custom='color:#bfbfbf;border-bottom:2rpx solid grey;'
-      text_left="big" 
-      size='big'
-      ></Cell>
-    <view class="label">有无图标</view>
-    <Cell 
-      icon_right='/assets/right.png'
-      custom='color:#bfbfbf;border-bottom:2rpx solid grey;border-top:2rpx solid grey;'
-      text_left="左侧没有图标" 
-      ></Cell>
-    <Cell 
-      icon_left='/assets/phone.png' 
-      custom='color:#bfbfbf;border-bottom:2rpx solid grey;'
-      text_left="右侧没有图标" 
-      ></Cell>
-      <view class="label">自定义样式</view>
-    <Cell 
-      icon_left='/assets/phone.png' 
-      custom='color:white;border-bottom:2rpx solid red;border-top:2rpx solid blue;background-color:pink;'
-      text_left="完全自定义"
-      text_right='完全自定义' 
-      ></Cell>
-  </view>
+	<view class="cell_ex">
+		<view class="label">不同尺寸</view>
+		<magic-cell
+		 icon_left='/assets/location.png'
+		 icon_right='/assets/right.png'
+		 custom='color:#bfbfbf;border-bottom:2rpx solid #eeeeee;border-top:2rpx solid #eeeeee;'
+		 size='small'
+		 label="small"
+		/>
+		<magic-cell
+		 icon_left='/assets/location.png'
+		 icon_right='/assets/right.png'
+		 custom='color:#bfbfbf;border-bottom:2rpx solid #eeeeee;'
+		 label="normal"
+		/>
+		<magic-cell
+		 icon_left='/assets/location.png'
+		 icon_right='/assets/right.png'
+		 custom='color:#bfbfbf;border-bottom:2rpx solid #eeeeee;'
+		 label="big"
+		 size='big'
+		/>
+		<view class="label">有无图标</view>
+		<magic-cell icon_right='/assets/right.png' custom='color:#bfbfbf;border-bottom:2rpx solid #eeeeee;border-top:2rpx solid #eeeeee;' label="左侧没有图标" />
+		<magic-cell icon_left='/assets/phone.png' custom='color:#bfbfbf;border-bottom:2rpx solid #eeeeee;' label="右侧没有图标" />
+		<view class="label">自定义样式</view>
+		<magic-cell
+		 icon_left='/assets/phone.png'
+		 custom='color:white;border-bottom:2rpx solid red;border-top:2rpx solid blue;background-color:pink;'
+		 label="完全自定义"
+		 value='完全自定义'
+		/>
+	</view>
 </Container>
 

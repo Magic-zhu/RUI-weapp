@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #fff;
 }
 .cell .item {
   display: flex;
@@ -24,6 +25,7 @@
 }
 .cell_big {
   height: 100rpx;
+  font-size: 40rpx;
 }
 .cell_big .icon {
   width: 60rpx;

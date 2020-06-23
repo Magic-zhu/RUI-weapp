@@ -1,33 +1,41 @@
 <!--pages/Popup_Ex/index.wxml-->
 <Container navBarOptions='{{navBarOptions}}'>
-    <view class='popup_ex'>
-        <view class='label'>底部弹出</view>
-        <view class='box'>
-            <magic-button onTap='btnTap' text='底部弹出'></magic-button>
-        </view>
-        <view class='label'>顶部弹出</view>
-        <view class='box'>
-            <magic-button onTap='btnTap1' text='顶部弹出'></magic-button>
-        </view>
-        <view class='label'>左边弹出</view>
-        <view class='box'>
-            <magic-button onTap='btnTap2' text='左边弹出'></magic-button>
-        </view>
-        <view class='label'>右边弹出</view>
-        <view class='box'>
-            <magic-button onTap='btnTap3' text='右边弹出'></magic-button>
-        </view>                        
-        <Popup id='pop'>
-          <view class="white_block"></view>
-        </Popup>
-        <Popup id='pop1' position='top'>
-          <view class="white_block1"></view>
-        </Popup>
-        <Popup id='pop2'position='left'>
-          <view class="white_block2"></view>
-        </Popup>
-        <Popup id='pop3'position='right'>
-          <view class="white_block3"></view>
-        </Popup>
-    </view>
-</Container >
+	<view class='popup_ex'>
+		<view class='label'>底部弹出</view>
+		<view class='box'>
+			<magic-button onTap='btnTap' text='底部弹出' />
+		</view>
+		<view class='label'>顶部弹出</view>
+		<view class='box'>
+			<magic-button onTap='btnTap1' text='顶部弹出' />
+		</view>
+		<view class='label'>左边弹出</view>
+		<view class='box'>
+			<magic-button onTap='btnTap2' text='左边弹出' />
+		</view>
+		<view class='label'>右边弹出</view>
+		<view class='box'>
+			<magic-button onTap='btnTap3' text='右边弹出' />
+		</view>
+		<view class='label'>自定义弹出速度</view>
+		<view class='box'>
+			<magic-button onTap='btnTap4' text='自定义弹出速度' />
+		</view>
+		<Popup id='pop'>
+			<view class="white_block" />
+		</Popup>
+		<Popup id='pop1' position='top'>
+			<view class="white_block1" />
+		</Popup>
+		<Popup id='pop2' position='left'>
+			<view class="white_block2" />
+		</Popup>
+		<Popup id='pop3' position='right'>
+			<view class="white_block3" />
+		</Popup>
+		<Popup id='pop4' speed='{{100}}'>
+			<view class="white_block" />
+		</Popup>
+	</view>
+</Container>
+
