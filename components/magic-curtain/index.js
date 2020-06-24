@@ -36,7 +36,7 @@ Component({
             this.setData({show:false})
         },200)
     },
-    show(){
+    open(){
         console.log('执行')
         let animation = wx.createAnimation({
             duration: 200,

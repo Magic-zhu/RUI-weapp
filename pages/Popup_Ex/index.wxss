@@ -4,6 +4,8 @@
 }
 .label,.box{
   margin-bottom: 20rpx;
+  display: flex;
+  justify-content: center;
 }
 .white_block{
   width: 100%;

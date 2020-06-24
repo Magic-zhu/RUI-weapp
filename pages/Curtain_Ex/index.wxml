@@ -2,11 +2,11 @@
 <Container navBarOptions='{{navBarOptions}}'>
     <view class="curtain_ex">
         <magic-button text='打开幕帘' onTap='open'></magic-button>
-        <Curtain id='curtain'>
+        <magic-curtain id='curtain'>
             <view class="box">
                 幕帘的内容 可以是图片或者任意形式
             </view>
-        </Curtain>
+        </magic-curtain>
     </view>
 </Container>
 

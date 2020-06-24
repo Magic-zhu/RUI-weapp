@@ -11,7 +11,7 @@ Page({
     },
   },
   open(){
-    this.selectComponent("#curtain").show();
+    this.selectComponent("#curtain").open();
   },
   /**
    * 生命周期函数--监听页面加载
