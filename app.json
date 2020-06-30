@@ -1,5 +1,26 @@
 {
-    "pages": ["pages/index/index", "pages/logs/logs", "pages/Notify_Ex/index", "pages/Button_Ex/index", "pages/Cell_Ex/index", "pages/feedback/index", "pages/Popup_Ex/index", "pages/Curtain_Ex/index", "pages/Image_Ex/index", "pages/form/index", "pages/business/index", "pages/Icon_Ex/index", "pages/Modal_Ex/index", "pages/about/index", "pages/ActionSheet_Ex/index", "pages/Canvas_Ex/index", "pages/Qrcode_Ex/index", "pages/BarCode_Ex/index", "pages/Animation_Ex/index"],
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/Notify_Ex/index",
+        "pages/Button_Ex/index",
+        "pages/Cell_Ex/index",
+        "pages/feedback/index",
+        "pages/Popup_Ex/index",
+        "pages/Curtain_Ex/index",
+        "pages/Image_Ex/index",
+        "pages/form/index",
+        "pages/business/index",
+        "pages/Icon_Ex/index",
+        "pages/Modal_Ex/index",
+        "pages/about/index",
+        "pages/ActionSheet_Ex/index",
+        "pages/Canvas_Ex/index",
+        "pages/Qrcode_Ex/index",
+        "pages/BarCode_Ex/index",
+        "pages/Animation_Ex/index",
+        "pages/Uploader_Ex/index"
+    ],
     "window": {
         "navigationStyle": "custom",
         "backgroundTextStyle": "light",
@@ -12,7 +33,7 @@
         "magic-nav": "./components/magic-nav/index",
         "magic-button": "./components/magic-button/index",
         "Container": "./components/Container/index",
-        "Notify": "./components/Notify/index",
+        "magic-notify": "./components/magic-notify/index",
         "magic-popup": "./components/magic-popup/index",
         "magic-curtain": "./components/magic-curtain/index",
         "magic-cell": "./components/magic-cell/index",
@@ -20,32 +41,44 @@
         "Modal": "./components/Modal/index",
         "ActionSheet": "./components/ActionSheet/index",
         "magic-qrcode": "./components/QrCode/index",
-        "magic-barcode":"./components/BarCode/index"
+        "magic-barcode": "./components/BarCode/index",
+        "magic-uploader": "./components/magic-uploader/index"
     },
     "tabBar": {
         "color": "#333333",
-        "selectedColor": "#13227a",
-        "list": [{
-            "pagePath": "pages/index/index",
-            "text": "基础组件",
-            "iconPath": "/assets/base_off.png",
-            "selectedIconPath": "/assets/base_on.png"
-        }, {
-            "pagePath": "pages/feedback/index",
-            "text": "反馈组件",
-            "iconPath": "/assets/feedback_off.png",
-            "selectedIconPath": "/assets/feedback_on.png"
-        }, {
-            "pagePath": "pages/business/index",
-            "text": "业务组件",
-            "iconPath": "/assets/business_off.png",
-            "selectedIconPath": "/assets/business_on.png"
-        }, {
-            "pagePath": "pages/about/index",
-            "text": "关于",
-            "iconPath": "./assets/about_off.png",
-            "selectedIconPath": "./assets/about_on.png"
-        }]
+        "selectedColor": "#ff9900",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "基础组件",
+                "iconPath": "/assets/base_off.png",
+                "selectedIconPath": "/assets/base_on.png"
+            },
+            {
+                "pagePath": "pages/feedback/index",
+                "text": "反馈组件",
+                "iconPath": "/assets/feedback_off.png",
+                "selectedIconPath": "/assets/feedback_on.png"
+            },
+            {
+                "pagePath": "pages/feedback/index",
+                "text": "表单组件",
+                "iconPath": "/assets/form_off.png",
+                "selectedIconPath": "/assets/form_on.png"
+            },
+            {
+                "pagePath": "pages/business/index",
+                "text": "业务组件",
+                "iconPath": "/assets/business_off.png",
+                "selectedIconPath": "/assets/business_on.png"
+            },
+            {
+                "pagePath": "pages/about/index",
+                "text": "关于",
+                "iconPath": "./assets/about_off.png",
+                "selectedIconPath": "./assets/about_on.png"
+            }
+        ]
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"

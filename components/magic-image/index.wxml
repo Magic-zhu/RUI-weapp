@@ -8,10 +8,6 @@
         bindload="loadImage"
     />
   <view class='magic_image_bg' style="opacity:{{ready?0:1}}">
-        <view class='loading'>
-            <view class='loading-view loading1'></view>
-            <view class='loading-view loading2'></view>
-            <view class='loading-view loading3'></view>
-        </view>
+      <image src="{{default}}" mode="widthFix" class="default"/>
   </view>
 </view>

@@ -1,0 +1,5 @@
+<Container navBarOptions='{{navBarOptions}}'>
+    <view class='uploader_ex'>
+        <magic-uploader uploading='{{upload}}' bind:onGetSrc='getSrc'/>
+    </view>
+</Container>

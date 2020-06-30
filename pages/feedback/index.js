@@ -20,7 +20,7 @@ Page({
     ]
   },
   onTabItemTap() {
-    wx.vibrateShort();
+    // wx.vibrateShort();
 },
   jump(e) {
     wx.$.click(() => {

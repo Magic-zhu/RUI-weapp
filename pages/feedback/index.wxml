@@ -1,10 +1,18 @@
 <!--index.wxml-->
 <Container navBarOptions='{{navBarOptions}}'>
-    <view class='base_wrapper'>
-            <view class='base_item' wx:for='{{list}}' wx:key='index' bindtap='jump'  data-index='{{index}}'>
-                <magic-image src='/assets/feedback_on.png' width='100rpx' height='100rpx'></magic-image>
-                <view>{{item.name}}</view>
-                <view class='icon'>Go</view>
-            </view>
-    </view>
+	<view class='base_wrapper'>
+		<view
+		 class='base_item'
+		 wx:for='{{list}}'
+		 wx:key='index'
+		 bindtap='jump'
+		 data-index='{{index}}'
+		>
+			<view class="content">
+				<view>{{item.name}}</view>
+				<view class='icon'>Go</view>
+			</view>
+		</view>
+	</view>
 </Container>
+

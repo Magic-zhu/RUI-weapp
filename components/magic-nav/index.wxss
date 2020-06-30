@@ -69,7 +69,7 @@
   justify-content: center;
   box-sizing: border-box;
 }
-.magic_nav_wrapper .magic_nav_home image {
+.magic_nav_wrapper .magic_nav_home .home {
   width: 15px;
   height: 15px;
 }

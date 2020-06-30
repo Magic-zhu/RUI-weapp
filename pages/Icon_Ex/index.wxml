@@ -1,42 +1,40 @@
 <Container navBarOptions='{{navBarOptions}}'>
   <view style="padding:40rpx">
+  <view>支持iconfont ant-design 600个图标 详情可参考文档</view>    
   <view>
-    图标可以定义大小和颜色值，图标的种类请到手册查看
+    <Icon type='cloud-sync'></Icon>
+    <Icon type='cloud-sync' color='blue' size='40rpx'></Icon>
+    <Icon type='cloud-sync' color='red' size='60rpx'></Icon>
+    <Icon type='cloud-sync' color='green' size='80rpx'></Icon>
+    <Icon type='cloud-sync' color='orange' size='100rpx'></Icon>
   </view>
   <view>
-    <Icon type='icon_im_face'></Icon>
-    <Icon type='icon_im_face' color='blue' size='40rpx'></Icon>
-    <Icon type='icon_im_face' color='red' size='60rpx'></Icon>
-    <Icon type='icon_im_face' color='green' size='80rpx'></Icon>
-    <Icon type='icon_im_face' color='pink' size='100rpx'></Icon>
-  </view>
-  <view>
-    <Icon type='icon_certificate_fil '></Icon>
-    <Icon type='icon_certificate_fil ' color='blue' size='40rpx'></Icon>
-    <Icon type='icon_certificate_fil ' color='red' size='60rpx'></Icon>
-    <Icon type='icon_certificate_fil ' color='green' size='80rpx'></Icon>
-    <Icon type='icon_certificate_fil ' color='pink' size='100rpx'></Icon>
+    <Icon type='IE'></Icon>
+    <Icon type='IE' color='blue' size='40rpx'></Icon>
+    <Icon type='IE' color='red' size='60rpx'></Icon>
+    <Icon type='IE' color='green' size='80rpx'></Icon>
+    <Icon type='IE' color='orange' size='100rpx'></Icon>
   </view>
     <view>
-    <Icon type='icon_QRcode '></Icon>
-    <Icon type='icon_QRcode ' color='blue' size='40rpx'></Icon>
-    <Icon type='icon_QRcode ' color='red' size='60rpx'></Icon>
-    <Icon type='icon_QRcode ' color='green' size='80rpx'></Icon>
-    <Icon type='icon_QRcode ' color='pink' size='100rpx'></Icon>
+    <Icon type='amazon-circle-fill '></Icon>
+    <Icon type='amazon-circle-fill ' color='blue' size='40rpx'></Icon>
+    <Icon type='amazon-circle-fill ' color='red' size='60rpx'></Icon>
+    <Icon type='amazon-circle-fill ' color='green' size='80rpx'></Icon>
+    <Icon type='amazon-circle-fill ' color='orange' size='100rpx'></Icon>
   </view>
     <view>
-    <Icon type='icon_search '></Icon>
-    <Icon type='icon_search ' color='blue' size='40rpx'></Icon>
-    <Icon type='icon_search ' color='red' size='60rpx'></Icon>
-    <Icon type='icon_search ' color='green' size='80rpx'></Icon>
-    <Icon type='icon_search ' color='pink' size='100rpx'></Icon>
+    <Icon type='smile '></Icon>
+    <Icon type='smile ' color='blue' size='40rpx'></Icon>
+    <Icon type='smile ' color='red' size='60rpx'></Icon>
+    <Icon type='smile ' color='green' size='80rpx'></Icon>
+    <Icon type='smile ' color='orange' size='100rpx'></Icon>
   </view>
   <view>
-    <Icon type='icon_sketch '></Icon>
-    <Icon type='icon_sketch ' color='blue' size='40rpx'></Icon>
-    <Icon type='icon_sketch ' color='red' size='60rpx'></Icon>
-    <Icon type='icon_sketch ' color='green' size='80rpx'></Icon>
-    <Icon type='icon_sketch ' color='orange' size='100rpx'></Icon>
+    <Icon type='bug-fill '></Icon>
+    <Icon type='bug-fill ' color='blue' size='40rpx'></Icon>
+    <Icon type='bug-fill ' color='red' size='60rpx'></Icon>
+    <Icon type='bug-fill ' color='green' size='80rpx'></Icon>
+    <Icon type='bug-fill ' color='orange' size='100rpx'></Icon>
   </view>
   </view>
 </Container>

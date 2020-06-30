@@ -22,5 +22,5 @@
       <magic-button onTap='btnTap4' text='自定义'></magic-button>
     </view>
   </view>
-  <Notify id='nf' />
+  <magic-notify id='nf' />
 </Container>

@@ -22,6 +22,10 @@ Component({
     },
     defaultHeight:{
         type: String,
+    },
+    default:{
+        type:String,
+        value:'./waiting.png'
     }
   },
 

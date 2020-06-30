@@ -1,0 +1,9 @@
+<view class="magic-uploader-wrapper" catch:tap='upload'>
+    <image src="./camera.png" class="icon" wx:if="{{src==''}}"/>
+    <view class='cover' wx:if="{{uploading}}">
+        <view class="loader"></view>
+        <text class="text">上传中</text>
+    </view>
+    <image src="./close.png" class="close" wx:if="{{src!=''}}" catch:tap="clear"/>
+    <image src="{{src}}" class="content" wx:if="{{src!=''&& !uploading}}" catch:tap="preview"/>
+</view>

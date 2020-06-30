@@ -9,7 +9,8 @@
     <button 
         wx:if='{{options}}'
         form-type='{{options.formType||null}}'
-        open-type='{{options.openType||null}}' 
+        open-type='{{options.openType||null}}'
+        class="button" 
         session-from='{{options.sessionFrom||""}}'
         send-message-title='{{options.sendMessageTitle||""}}'
         send-message-path='{{options.sendMessagePath||""}}'

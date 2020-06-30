@@ -17,10 +17,14 @@ Page({
         name:"QrCode 二维码",
         path:"/pages/Qrcode_Ex/index"
       },
+      {
+        name:"Uploader 图片上传",
+        path:"/pages/Uploader_Ex/index" 
+      }
     ]
   },
   onTabItemTap() {
-    wx.vibrateShort();
+    // wx.vibrateShort();
 },
   jump(e) {
     wx.$.click(() => {

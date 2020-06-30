@@ -9,6 +9,22 @@
   box-sizing: border-box;
 }
 .base_wrapper .base_item {
+  position: relative;
+  z-index: 1;
+}
+.base_wrapper .base_item .icon {
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #FF9900;
+  border-radius: 25rpx;
+  color: white;
+  box-shadow: 0 0 10px 4px  #FF9900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26rpx;
+}
+.base_wrapper .base_item .content {
   width: 690rpx;
   height: 140rpx;
   border-radius: 12rpx;
@@ -17,20 +33,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 40rpx;
+  padding: 0 40rpx;
   box-sizing: border-box;
   margin-bottom: 40rpx;
   color: grey;
+  font-size: 40rpx;
 }
-.base_wrapper .base_item .icon {
-  width: 50rpx;
-  height: 50rpx;
-  background-color: lightgreen;
-  border-radius: 25rpx;
-  color: white;
-  box-shadow: 0 0 10px 4px  lightgreen;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 26rpx;
+.base_wrapper .base_item::after {
+  z-index: -1;
+  position: absolute;
+  bottom: 78rpx;
+  right: 7rpx;
+  width: 75%;
+  height: 10rpx;
+  box-shadow: 0 30rpx 10rpx #000;
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+  transition: all 150ms ease-in-out;
+  content: "";
 }

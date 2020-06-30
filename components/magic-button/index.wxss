@@ -6,7 +6,7 @@
   overflow: hidden;
   position: relative;
 }
-.magic-button button {
+.magic-button .button {
   width: 100%;
   height: 100%;
   opacity: 0;

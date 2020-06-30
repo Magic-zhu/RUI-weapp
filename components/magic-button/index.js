@@ -10,6 +10,7 @@ Component({
         },
         custom: {
             type: Object,
+            optionalTypes: [String],
         },
         disabled: {
             type: Boolean,
@@ -35,7 +36,6 @@ Component({
     observers: {
         "custom": function (target) {
             let cssString = '';
-            console.log(typeof target)
             if(typeof target =='string'){
                 cssString = target
             }else{

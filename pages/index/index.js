@@ -43,7 +43,7 @@ Page({
         logoAnimation:null,
     },
     onTabItemTap() {
-        wx.vibrateShort();
+        // wx.vibrateShort();
     },
     jump(e) {
         wx.$.click(() => {
