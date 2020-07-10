@@ -38,8 +38,8 @@
         "magic-curtain": "./components/magic-curtain/index",
         "magic-cell": "./components/magic-cell/index",
         "Icon": "./components/Icon/index",
-        "Modal": "./components/Modal/index",
-        "ActionSheet": "./components/ActionSheet/index",
+        "magic-modal": "./components/magic-modal/index",
+        "ActionSheet": "./components/magic-action-sheet/index",
         "magic-qrcode": "./components/QrCode/index",
         "magic-barcode": "./components/BarCode/index",
         "magic-uploader": "./components/magic-uploader/index"

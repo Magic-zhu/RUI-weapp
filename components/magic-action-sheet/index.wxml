@@ -1,5 +1,5 @@
 <view class="ActionSheet-container">
-	<Popup id='magic_popup'>
+	<popup id='magic_popup'>
 		<view class="ActionSheet-box">
 			<view class="common-area">
 				<view
@@ -15,7 +15,8 @@
 			</view>
 			<view class="block" wx:if="{{showCancel}}"/>
 			<view class="functionBtn" hover-class="common-hover" wx:if="{{showCancel}}" bindtap='hide'>取消</view>
+            <view class="block2"></view>
 		</view>
-	</Popup>
+	</popup>
 </view>
 

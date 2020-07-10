@@ -10,19 +10,6 @@ Component({
             value:true,
         }
     },
-    data: {
-
-    },
-    lifetimes:{
-        attached: function () { },
-        moved: function () { },
-        detached: function () { },
-    },
-    pageLifetimes:{
-        show: function () { },
-        hide: function () { },
-        resize: function () { },
-    },
     methods: {
         show(){
             this.selectComponent('#magic_popup').show()
