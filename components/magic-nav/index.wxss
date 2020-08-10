@@ -1,27 +1,69 @@
-.magic_nav_wrapper {
+.better_nav_wrapper {
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 11;
+  z-index: 99999;
   box-sizing: border-box;
   font-size: 34rpx;
 }
-.magic_nav_wrapper .magic_nav_content {
+.better_nav_wrapper .better_nav_content {
   height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
-.magic_nav_wrapper .magic_nav_content .box {
+.better_nav_wrapper .better_nav_content .box {
   width: 49%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.magic_nav_wrapper .magic_nav_menu {
+.better_nav_wrapper .better_nav_content .ins {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20rpx;
+}
+.better_nav_wrapper .better_nav_content .ins .back {
+  width: 37rpx;
+  height: 34rpx;
+  margin-right: 20rpx;
+}
+.better_nav_wrapper .better_nav_content .ins .home {
+  width: 49rpx;
+  height: 41rpx;
+}
+.better_nav_wrapper .better_nav_content .location {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20rpx;
+}
+.better_nav_wrapper .better_nav_content .location .icon-location {
+  width: 27rpx;
+  height: 32rpx;
+  margin-right: 10rpx;
+}
+.better_nav_wrapper .better_nav_content .location .location-picker {
+  display: flex;
+  align-items: center;
+}
+.better_nav_wrapper .better_nav_content .location .location-picker .down-arrow {
+  width: 12px;
+  height: 6px;
+}
+.better_nav_wrapper .better_nav_content .location .location-picker .city {
+  font-size: 26rpx;
+  margin-right: 10rpx;
+}
+.better_nav_wrapper .better_nav_menu {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -34,29 +76,29 @@
   justify-content: center;
   box-sizing: border-box;
 }
-.magic_nav_wrapper .magic_nav_menu .back {
+.better_nav_wrapper .better_nav_menu .back {
   width: 17.5px;
   height: 17.5px;
   margin-left: 5px;
 }
-.magic_nav_wrapper .magic_nav_menu .line {
+.better_nav_wrapper .better_nav_menu .line {
   background-color: #333333;
   width: 1px;
   height: 16.66666667px;
 }
-.magic_nav_wrapper .magic_nav_menu .home {
+.better_nav_wrapper .better_nav_menu .home {
   width: 15px;
   height: 15px;
 }
-.magic_nav_wrapper .magic_nav_menu_white {
+.better_nav_wrapper .better_nav_menu_white {
   background-color: rgba(255, 255, 255, 0.57);
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
-.magic_nav_wrapper .magic_nav_menu_black {
+.better_nav_wrapper .better_nav_menu_black {
   background-color: rgba(0, 0, 0, 0.13);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.magic_nav_wrapper .magic_nav_home {
+.better_nav_wrapper .better_nav_home {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -69,7 +111,7 @@
   justify-content: center;
   box-sizing: border-box;
 }
-.magic_nav_wrapper .magic_nav_home .home {
+.better_nav_wrapper .better_nav_home .home {
   width: 15px;
   height: 15px;
 }

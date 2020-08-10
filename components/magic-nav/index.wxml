@@ -1,18 +1,35 @@
-<!--components/magicNav/magicNav.wxml-->
-<view class='magic_nav_wrapper' style='height: {{titleBarHeight}}px;background-color:{{backgroundColor}};opacity:{{opacity}}'>
-  <view class='magic_nav_content' style='margin-top:{{statusBarHeight+padding}}px'>
-    <view class="{{frontColor=='#ffffff'?'magic_nav_menu  magic_nav_menu_black':'magic_nav_menu  magic_nav_menu_white'}}" wx:if='{{type==0}}'>
-        <view bindtap="back" class='box'>
-            <image src="{{backIcon}}" class='back' />
-        </view>
-      <view class='line'></view>
-      <view bindtap="goHome" class='box'>
-            <image src="{{homeIcon}}" class='home'  />
-      </view>
-    </view>
-    <view wx:if='{{type==1}}' class="{{frontColor=='#ffffff'?'magic_nav_home  magic_nav_menu_black':'magic_nav_home  magic_nav_menu_white'}}"  bindtap="goHome" >
-      <image src="{{homeIcon}}" class='home' />
-    </view>
-    <view style="color:{{!status?barTitleTextColor:scrollBarTitleTextColor}}">{{!status?barTitleText:scrollBarTitleText}}</view>
-  </view>
+<!--components/BetterNav/BetterNav.wxml-->
+<view class='better_nav_wrapper' style='height: {{titleBarHeight}}px;background:{{backgroundColor}};opacity:{{opacity}}'>
+	<view class='better_nav_content' style='margin-top:{{statusBarHeight+padding}}px'>
+		<view class="{{frontColor=='#ffffff'?'better_nav_menu  better_nav_menu_black':'better_nav_menu  better_nav_menu_white'}}" wx:if="{{type==0 && template=='default'}}">
+			<view bindtap="back" class='box'>
+				<image src="{{backIcon}}" class='back' />
+			</view>
+			<view class='line' />
+			<view bindtap="goHome" class='box'>
+				<image src="{{homeIcon}}" class='home' />
+			</view>
+		</view>
+		<view wx:if="{{type==1 && template=='default'}}" class="{{frontColor=='#ffffff'?'better_nav_home  better_nav_menu_black':'better_nav_home  better_nav_menu_white'}}" bindtap="goHome">
+			<image src="{{homeIcon}}" class='home' />
+		</view>
+		<view class="ins" wx:if="{{template=='ins'}}">
+			<image src="./icon_back_ins.png" class='back' bindtap="back" wx:if="{{type==0}}"/>
+			<image src="./icon_home_ins.png" class="home" bindtap="goHome" />
+		</view>
+		<view class="location" wx:if="{{template=='location'}}">
+            <image src="./location.png" class="icon-location" catch:tap="handlePositionTap"/>
+            <picker>
+                <view class="location-picker">
+                    <text class="city">上海</text>
+                    <image src="./arrow_down.png" class="down-arrow"/>
+                </view>
+            </picker>            
+		</view>
+		<view class="custom" wx:if="{{template=='custom'}}">
+			<slot/>
+		</view>
+		<view style="color:{{!status?barTitleTextColor:scrollBarTitleTextColor}}">{{!status?barTitleText:scrollBarTitleText}}</view>
+	</view>
 </view>
+

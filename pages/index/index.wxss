@@ -6,11 +6,21 @@
   align-items: center;
   padding: 40rpx 20rpx;
   box-sizing: border-box;
+  position: relative;
 }
-.base_wrapper .logo {
-  margin: 0rpx auto 40rpx;
-  width: 503rpx;
-  height: 180rpx;
+.base_wrapper #myCanvas {
+  width: 750rpx;
+  height: 463rpx;
+}
+.base_wrapper .title {
+  color: black;
+  font-size: 80rpx;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 200rpx;
+  left: 0;
+  z-index: 3;
 }
 .base_wrapper .base_item {
   position: relative;

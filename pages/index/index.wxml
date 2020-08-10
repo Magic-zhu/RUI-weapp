@@ -1,7 +1,9 @@
 <!--index.wxml-->
 <Container navBarOptions='{{navBarOptions}}'>
     <view class='base_wrapper'>
-            <image class="logo" src="/assets/magic-logo.png" animation='{{logoAnimation}}'/>
+            <canvas type="webgl" id="myCanvas">
+                <cover-view class="title">Apollo UI</cover-view>
+            </canvas>
             <view class='base_item' wx:for='{{list}}' wx:key='index' bindtap='jump'  data-index='{{index}}'>
                 <view class='content'>
                     <view>{{item.name}}</view>

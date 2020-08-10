@@ -1,13 +1,13 @@
-.magic_nav_wrapper{
+.better_nav_wrapper{
     position: fixed;
     left:0;
     top:0;
     width: 100%;
-    z-index:11;
+    z-index:99999;
     // background-color: aquamarine;
     box-sizing: border-box;
     font-size: 34rpx;
-    .magic_nav_content{
+    .better_nav_content{
         height: 30px;
         display: flex;
         align-items: center;
@@ -20,8 +20,50 @@
             align-items: center;
             justify-content: center;
         }
+        .ins{
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left:20rpx;
+            .back{
+                width: 37rpx;
+                height: 34rpx;
+                margin-right: 20rpx;
+            }
+            .home{
+                width: 49rpx;
+                height: 41rpx;                
+            }
+        }
+        .location{
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left:20rpx;
+            .icon-location{
+                width: 27rpx;
+                height: 32rpx;
+                margin-right: 10rpx;
+            }
+            .location-picker{
+                display: flex;
+                align-items: center;
+                .down-arrow{
+                    width: 12px;
+                    height: 6px;
+                }
+                .city{
+                    font-size: 26rpx;
+                    margin-right: 10rpx;
+                }
+            }
+        }
     }
-    .magic_nav_menu{
+    .better_nav_menu{
         position: absolute;
         top:0;
         bottom: 0;
@@ -50,17 +92,17 @@
         }
     }
 
-    .magic_nav_menu_white{
+    .better_nav_menu_white{
         background-color: rgba(255,255,255,0.57);
         border: 1px solid rgba(0,0,0,0.08);
     }
 
-    .magic_nav_menu_black{
+    .better_nav_menu_black{
         background-color: rgba(0, 0, 0, 0.13);
         border: 1px solid rgba(255,255,255,0.1);
     }
 
-    .magic_nav_home{
+    .better_nav_home{
         position: absolute;
         top:0;
         bottom: 0;
