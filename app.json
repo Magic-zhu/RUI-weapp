@@ -45,38 +45,26 @@
         "magic-uploader": "./components/magic-uploader/index"
     },
     "tabBar": {
-        "color": "#333333",
+        "color": "#dbdbdb",
         "selectedColor": "#ff9900",
         "list": [
             {
                 "pagePath": "pages/index/index",
-                "text": "基础组件",
-                "iconPath": "/assets/base_off.png",
-                "selectedIconPath": "/assets/base_on.png"
+                "text": "组件",
+                "iconPath": "/assets/all_off.png",
+                "selectedIconPath": "/assets/all_on.png"
             },
             {
-                "pagePath": "pages/feedback/index",
-                "text": "反馈组件",
-                "iconPath": "/assets/feedback_off.png",
-                "selectedIconPath": "/assets/feedback_on.png"
-            },
-            {
-                "pagePath": "pages/feedback/index",
-                "text": "表单组件",
-                "iconPath": "/assets/form_off.png",
-                "selectedIconPath": "/assets/form_on.png"
-            },
-            {
-                "pagePath": "pages/business/index",
-                "text": "业务组件",
-                "iconPath": "/assets/business_off.png",
-                "selectedIconPath": "/assets/business_on.png"
+                "pagePath": "pages/index/index",
+                "text": "热门",
+                "iconPath": "/assets/hot_off.png",
+                "selectedIconPath": "/assets/hot_on.png"
             },
             {
                 "pagePath": "pages/about/index",
                 "text": "关于",
-                "iconPath": "./assets/about_off.png",
-                "selectedIconPath": "./assets/about_on.png"
+                "iconPath": "./assets/help_off.png",
+                "selectedIconPath": "./assets/help_on.png"
             }
         ]
     },

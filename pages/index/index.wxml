@@ -1,9 +1,7 @@
 <!--index.wxml-->
 <Container navBarOptions='{{navBarOptions}}'>
     <view class='base_wrapper'>
-            <canvas type="webgl" id="myCanvas">
-                <cover-view class="title">Apollo UI</cover-view>
-            </canvas>
+            <canvas id="myCanvas"></canvas>
             <view class='base_item' wx:for='{{list}}' wx:key='index' bindtap='jump'  data-index='{{index}}'>
                 <view class='content'>
                     <view>{{item.name}}</view>
