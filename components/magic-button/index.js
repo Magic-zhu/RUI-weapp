@@ -1,4 +1,5 @@
 // components/magicButton/index.js
+import config from "./config"
 Component({
     /**
      * 组件的属性列表
@@ -25,6 +26,9 @@ Component({
         loading: {
             type: Boolean
         },
+        type:{
+            type: String,
+        },
     },
 
     /**
@@ -35,6 +39,23 @@ Component({
     },
     observers: {
         "custom": function (target) {
+            let cssString = this.cssTran(target);
+            this.setData({
+                customStyle: cssString
+            })
+        }
+    },
+    attached(){
+        if(config.use && this.properties.type && config[this.properties.type]){
+            const customStyle = this.cssTran(config[this.properties.type])
+            this.setData({customStyle})
+        }
+    },
+    /**
+     * 组件的方法列表
+     */
+    methods: {
+        cssTran(target){
             let cssString = '';
             if(typeof target =='string'){
                 cssString = target
@@ -43,15 +64,8 @@ Component({
                     cssString = cssString + `${key}:${target[key]};`
                 }
             }
-            this.setData({
-                customStyle: cssString
-            })
-        }
-    },
-    /**
-     * 组件的方法列表
-     */
-    methods: {
+            return cssString
+        },
         handleTap(e) {
             this.triggerEvent('Tap', e)
         },

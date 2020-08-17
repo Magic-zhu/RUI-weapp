@@ -3,8 +3,8 @@
     <magic-button custom='margin-bottom:40rpx' onTap='tap1' text='打开成功弹窗'></magic-button>
     <magic-button custom='margin-bottom:40rpx' onTap='tap2' text='打开失败弹窗'></magic-button>
     <magic-button custom='margin-bottom:40rpx' onTap='tap3' text='打开信息弹窗'></magic-button>
-    <Modal id='modal1' type='success'></Modal>
-    <Modal id='modal2' type='error'></Modal>
-    <Modal id='modal3' type='warning'></Modal>
+    <magic-modal id='modal1' type='success'></magic-modal>
+    <magic-modal id='modal2' type='error'></magic-modal>
+    <magic-modal id='modal3' type='warning'></magic-modal>
   </view>
 </Container>

@@ -1,12 +1,14 @@
 <!--index.wxml-->
 <Container navBarOptions='{{navBarOptions}}'>
     <view class='base_wrapper'>
-            <canvas id="myCanvas"></canvas>
-            <view class='base_item' wx:for='{{list}}' wx:key='index' bindtap='jump'  data-index='{{index}}'>
-                <view class='content'>
-                    <view>{{item.name}}</view>
-                    <view class='icon'>Go</view>
-                </view>
+        <view class='base_item' wx:for='{{list}}' wx:key='index' bindtap='jump'  data-index='{{index}}'>
+            <view class='content' wx:if="{{item.type=='page'}}">
+                <view>{{item.name}}</view>
+                <view class='icon'>Go</view>
             </view>
+            <view class="title" wx:if="{{item.type=='title'}}">
+                {{item.name}}
+            </view>
+        </view>
     </view>
 </Container>

@@ -1,0 +1,18 @@
+.color-wrapper .list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 690rpx;
+  margin: 0 auto;
+}
+.color-wrapper .list .item {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 20rpx;
+  margin: 15rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 28rpx;
+}

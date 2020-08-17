@@ -1,0 +1,10 @@
+<Container navBarOptions='{{navBarOptions}}'>
+    <view class='color-wrapper'>
+        <view class="list">
+            <view class="item" wx:for="{{normalList}}" wx:key="normalList" style="background:{{item.value}}">
+                <text>{{item.color}}</text>
+                <text>{{item.value}}</text>
+            </view>
+        </view>
+    </view>
+</Container>

@@ -1,12 +1,12 @@
 
 //请求拦截
 const interceptor_request = function(options){
-
+    return options
 }
 
 //响应拦截
 const interceptor_response = function(res){
-
+    return res
 }
 
 function request(options){
@@ -16,7 +16,7 @@ function request(options){
             mask: true,
         });
     }
-    interceptor_request(options)
+    options = interceptor_request(options)
     return new Promise((resolve,reject)=>{
         wx.request({
             url: options.url||'',
@@ -26,8 +26,8 @@ function request(options){
             dataType: options.dataType||'json',
             responseType: options.responseType||'text',
             success: (result)=>{
-                interceptor_response(result);
-                resolve(result);
+                const r = interceptor_response(result);
+                resolve(r);
             },
             fail: (err)=>{
                 reject(err);
