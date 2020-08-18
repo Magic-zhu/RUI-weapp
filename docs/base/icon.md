@@ -1,6 +1,6 @@
 ## 示例图片
 
-[点击这里查看所有可用图标](http://magiczhu.cn/storage/icons)
+[点击这里查看所有可用图标](http://cdn.magiczhu.cn/docs/icons/index.html)
 
 ![icon](../assets/icon.png)
 

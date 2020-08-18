@@ -52,9 +52,7 @@ Page({
             {
                 color:"brown",
                 value:"#a5673f"
-            }
-        ],
-        lightList:[
+            },
             {
                 color:"redLight",
                 value:"#fadbd9"
@@ -95,7 +93,7 @@ Page({
                 color:"brownLight",
                 value:"#ede1d9"
             },
-        ]
+        ],
   },
   /**
    * 生命周期函数--监听页面加载

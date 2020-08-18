@@ -10,13 +10,18 @@ Page({
                 type: "title",
             },
             {
+                name: "Animation库",
+                path: "",
+                type: "page",
+            },
+            {
                 name: "Canvas库",
                 path: "/pages/Canvas_Ex/index",
                 type: "page",
             },
             {
-                name: "Animation库",
-                path: "",
+                name:"Color 颜色",
+                path: "/pages/Color_Ex/index",
                 type: "page",
             },
             {
