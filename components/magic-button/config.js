@@ -10,6 +10,12 @@ export default {
         "font-size":"",
     },
     success:{
-        "background-color":"#00db00",
-    }
+        "background-color":"#39b54a",
+    },
+    warning:{
+        "background-color":"#fbbd08",
+    },
+    error:{
+        "background-color":"#e54d42",
+    },
 }
