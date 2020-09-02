@@ -15,33 +15,34 @@ Page({
                 type: "page",
             },
             {
+                name: "Button 按钮",
+                path: "/pages/Button_Ex/index",
+                type: "page",
+            },
+            {
                 name: "Canvas库",
                 path: "/pages/Canvas_Ex/index",
                 type: "page",
             },
             {
-                name:"Color 颜色",
+                name: "Color 颜色",
                 path: "/pages/Color_Ex/index",
                 type: "page",
             },
-            {
-                name: "Button 按钮",
-                path: "/pages/Button_Ex/index",
-                type: "page",
-            },
+
             {
                 name: "Cell 单元格",
                 path: "/pages/Cell_Ex/index",
                 type: "page",
             },
             {
-                name: "Popup 弹出层",
-                path: "/pages/Popup_Ex/index",
+                name: "Curtain 幕帘",
+                path: "/pages/Curtain_Ex/index",
                 type: "page",
             },
             {
-                name: "Curtain 幕帘",
-                path: "/pages/Curtain_Ex/index",
+                name: "Popup 弹出层",
+                path: "/pages/Popup_Ex/index",
                 type: "page",
             },
             {
@@ -53,6 +54,10 @@ Page({
                 name: "Icon 图标",
                 path: "/pages/Icon_Ex/index",
                 type: "page",
+            },
+            {
+                name: "表单组件",
+                type: "title",
             },
             {
                 name: "反馈组件",

@@ -1,5 +1,27 @@
 {
-    "pages": ["pages/index/index", "pages/logs/logs", "pages/Notify_Ex/index", "pages/Button_Ex/index", "pages/Cell_Ex/index", "pages/Popup_Ex/index", "pages/Curtain_Ex/index", "pages/Image_Ex/index", "pages/form/index", "pages/business/index", "pages/Icon_Ex/index", "pages/Modal_Ex/index", "pages/about/index", "pages/ActionSheet_Ex/index", "pages/Canvas_Ex/index", "pages/Qrcode_Ex/index", "pages/BarCode_Ex/index", "pages/Animation_Ex/index", "pages/Uploader_Ex/index", "pages/Color_Ex/index"],
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/Notify_Ex/index",
+        "pages/Button_Ex/index",
+        "pages/Cell_Ex/index",
+        "pages/Popup_Ex/index",
+        "pages/Curtain_Ex/index",
+        "pages/Image_Ex/index",
+        "pages/form/index",
+        "pages/business/index",
+        "pages/Icon_Ex/index",
+        "pages/Modal_Ex/index",
+        "pages/about/index",
+        "pages/ActionSheet_Ex/index",
+        "pages/Canvas_Ex/index",
+        "pages/Qrcode_Ex/index",
+        "pages/BarCode_Ex/index",
+        "pages/Animation_Ex/index",
+        "pages/Uploader_Ex/index",
+        "pages/Color_Ex/index",
+        "pages/hot/index"
+    ],
     "window": {
         "navigationStyle": "custom",
         "backgroundTextStyle": "light",
@@ -26,22 +48,26 @@
     "tabBar": {
         "color": "#dbdbdb",
         "selectedColor": "#ff9900",
-        "list": [{
-            "pagePath": "pages/index/index",
-            "text": "组件",
-            "iconPath": "/assets/all_off.png",
-            "selectedIconPath": "/assets/all_on.png"
-        }, {
-            "pagePath": "pages/index/index",
-            "text": "热门",
-            "iconPath": "/assets/hot_off.png",
-            "selectedIconPath": "/assets/hot_on.png"
-        }, {
-            "pagePath": "pages/about/index",
-            "text": "关于",
-            "iconPath": "./assets/help_off.png",
-            "selectedIconPath": "./assets/help_on.png"
-        }]
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "组件",
+                "iconPath": "/assets/all_off.png",
+                "selectedIconPath": "/assets/all_on.png"
+            },
+            {
+                "pagePath": "pages/hot/index",
+                "text": "热门",
+                "iconPath": "/assets/hot_off.png",
+                "selectedIconPath": "/assets/hot_on.png"
+            },
+            {
+                "pagePath": "pages/about/index",
+                "text": "关于",
+                "iconPath": "./assets/help_off.png",
+                "selectedIconPath": "./assets/help_on.png"
+            }
+        ]
     },
     "style": "v2",
     "sitemapLocation": "sitemap.json"

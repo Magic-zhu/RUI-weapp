@@ -13,21 +13,21 @@
         <view class='box'>
             <magic-button text='loading状态' loading></magic-button>
         </view>
-        <view class='label'>图片按钮</view>
-        <view class='box'>
-            <magic-button text='图片按钮'  image='/assets/imagebtn.png'></magic-button>
-        </view>
         <view class='label'>完全自定义</view>
         <view class='box'>
             <magic-button text='完全自定义'  custom='{{style1}}'></magic-button>
         </view>
         <view class='label'>配置文件定义</view>
         <view class='box'>
-            <magic-button text='配置文件定义'  type='success'></magic-button>
+            <magic-button text='配置文件定义'  type='warning'></magic-button>
         </view>
         <view class='label'>分享(特殊功能)</view>
         <view class='box'>
             <magic-button text='分享'  custom='{{style2}}' options='{{options}}'></magic-button>
+        </view>
+        <view class='label'>图片按钮</view>
+        <view class='box'>
+            <magic-button text='图片按钮'  image='/assets/imagebtn.png'></magic-button>
         </view>        
     </view>
 </Container >

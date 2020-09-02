@@ -75,7 +75,7 @@ Page({
             },
             {
                 color: "pink",
-                value: "#e03997"
+                value: "#ff99aa"
             },
             {
                 color: "brown",
@@ -124,7 +124,7 @@ Page({
             {
                 color: "pinkLight",
                 value: "#f9d7ea",
-                border: "#e03997",
+                border: "#ff99aa",
             },
             {
                 color: "brownLight",

@@ -2,7 +2,12 @@
   background-color: #f8f8f8;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 .cell_ex .label {
   margin: 20rpx;
+  color: #606266;
+}
+.cell_ex .block {
+  height: 20rpx;
 }

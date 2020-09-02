@@ -16,12 +16,12 @@ Page({
       openType:'share'
     },
     style1:{
-      'background-color':'pink',
+      'background-color':'#ff99aa',
       'width':'300rpx',
-      'height':'200rpx'
+      'height':'80rpx'
     },
     style2:{
-      'background-color':'purple',
+      'background-color':'#0081ff',
     }
   },
   btnTap(e){

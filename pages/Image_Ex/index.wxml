@@ -1,6 +1,6 @@
 <Container navBarOptions='{{navBarOptions}}'>
   <view class="wrapper">
-    <magic-image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1583678625260&di=9342785d263f0fc0f971bd2c472b2747&imgtype=0&src=http%3A%2F%2Fimage.biaobaiju.com%2Fuploads%2F20190807%2F14%2F1565158733-eAfUaXulSN.jpg" width='658rpx'
+    <magic-image src="http://cdn.magiczhu.cn/banner1.jpeg" width='658rpx'
       height='411rpx'></magic-image>
     <view style='margin:40rpx 0'>加载中</view>
     <magic-image src="" width='658rpx' height='411rpx'></magic-image>

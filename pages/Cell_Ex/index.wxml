@@ -5,20 +5,22 @@
 		<magic-cell
 		 icon_left='/assets/location.png'
 		 icon_right='/assets/right.png'
-		 custom='color:#bfbfbf;border-bottom:2rpx solid #eeeeee;border-top:2rpx solid #eeeeee;'
+		 custom='color:#909399;'
 		 size='small'
 		 label="small"
 		/>
+		<view class="block"></view>
 		<magic-cell
 		 icon_left='/assets/location.png'
 		 icon_right='/assets/right.png'
-		 custom='color:#bfbfbf;border-bottom:2rpx solid #eeeeee;'
+		 custom='color:#909399;'
 		 label="normal"
 		/>
+		<view class="block"></view>
 		<magic-cell
 		 icon_left='/assets/location.png'
 		 icon_right='/assets/right.png'
-		 custom='color:#bfbfbf;border-bottom:2rpx solid #eeeeee;'
+		 custom='color:#909399;'
 		 label="big"
 		 size='big'
 		/>
@@ -28,7 +30,7 @@
 		<view class="label">自定义样式</view>
 		<magic-cell
 		 icon_left='/assets/phone.png'
-		 custom='color:white;border-bottom:2rpx solid red;border-top:2rpx solid blue;background-color:pink;'
+		 custom='color:white;border-bottom:2rpx solid red;border-top:2rpx solid blue;background-color:#ff9900;'
 		 label="完全自定义"
 		 value='完全自定义'
 		/>
