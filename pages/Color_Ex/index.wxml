@@ -1,10 +1,41 @@
 <Container navBarOptions='{{navBarOptions}}'>
-    <view class='color-wrapper'>
-        <view class="list">
-            <view class="item" wx:for="{{normalList}}" wx:key="normalList" style="background:{{item.value}}">
-                <text>{{item.color}}</text>
-                <text>{{item.value}}</text>
-            </view>
-        </view>
-    </view>
+	<view class='color-wrapper'>
+		<view class="title">文字颜色</view>
+		<view class="list">
+			<view
+			 class="item"
+			 wx:for="{{textList}}"
+			 wx:key="textList"
+			 style="background:{{item.value}};border:{{item.border?'1px solid '+item.border:'none'}}"
+			>
+				<text>{{item.text}}</text>
+				<text>{{item.value}}</text>
+			</view>
+		</view>
+		<view class="title">阴影</view>
+		<view class="list">
+			<view
+			 class="item"
+			 wx:for="{{showdowList}}"
+			 wx:key="showdowList"
+			 style="box-shadow:{{item.value}};color:black"
+			>
+				<text>{{item.text}}</text>
+				<text style="font-size:20rpx">{{item.value}}</text>
+			</view>
+		</view>
+		<view class="title">标准色</view>
+		<view class="list">
+			<view
+			 class="item"
+			 wx:for="{{normalList}}"
+			 wx:key="normalList"
+			 style="background:{{item.value}};border:{{item.border?'1px solid '+item.border:'none'}}"
+			>
+				<text>{{item.color}}</text>
+				<text>{{item.value}}</text>
+			</view>
+		</view>
+	</view>
 </Container>
+
