@@ -1,0 +1,61 @@
+<view class="Field-wrapper">
+	<view class="left">
+		<view class="" />
+		<view class="label"><text wx:if="{{required}}" style="color:red">*</text>{{label}}</view>
+	</view>
+	<view class="right">
+		<picker
+		 mode="{{pickerMode}}"
+		 range="{{pickerRange}}"
+		 range-key="{{pickerRangeKey}}"
+		 value=""
+		 disabled="{{pickerDisabled}}"
+		 bindchange="onPickerChange"
+		 bindcancel=""
+		 wx:if="{{type==2}}"
+		 style="width:100%"
+		>
+			<text class="{{placeholderClass}}" wx:if="{{pickerValue==''}}">{{placeholder}}</text>
+			<text class="picker-value" wx:else>{{pickerValue}}</text>
+		</picker>
+		<view catch:tap='onMultiPickerTap' wx:if="{{type==3}}" style="width:100%">
+			<text class="{{placeholderClass}}" wx:if="{{mutiValue.length==0}}">{{placeholder}}</text>
+			<view class="muti-value" wx:else>
+				<text class="value-item" wx:for="{{mutiValue}}" wx:key="mutiValue">{{item}}{{index!=mutiValue.length-1?',':''}}</text>
+			</view>
+		</view>
+		<image src="./right_arrow.png" class="arrow" wx:if='{{type==2||type==3}}' />
+		<input
+		 class=""
+		 value="{{inputValue||default}}"
+		 type="{{type}}"
+		 password="{{password}}"
+		 placeholder="{{placeholder}}"
+		 placeholder-class="{{placeholderClass}}"
+		 disabled="{{disabled}}"
+		 maxlength="140"
+		 bindinput="onInput"
+		 bindfocus="onFocus"
+		 bindblur="onBlur"
+		 bindconfirm="onConfirm"
+		 wx:if="{{type==1}}"
+		/>
+	</view>
+	<Popup id='{{"popup"+pid}}'>
+		<view class="pop-wrapper">
+			<view class="popup-box">
+				<view
+				 class="choice-item {{item.active?'active':''}}"
+				 wx:for="{{mutiRange}}"
+				 wx:key="mutiRange"
+				 catch:tap='choose'
+				 data-index='{{index}}'
+				>
+					<text>{{item.value}}</text>
+				</view>
+			</view>
+			<view class="confirm" catch:tap='confirmChoose'>确认选择</view>
+		</view>
+	</Popup>
+</view>
+

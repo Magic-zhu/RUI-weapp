@@ -1,0 +1,87 @@
+.Field-wrapper {
+    display: flex;
+    align-items: center;
+    height: 98rpx;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 40rpx;
+    font-size: 30rpx;
+    box-sizing: border-box;
+
+    .placeholder-default {
+        color: #cccccc;
+        font-size: 28rpx;
+    }
+
+    .label {
+        color: #606266;
+    }
+
+    .right {
+        flex: 1;
+        text-align: right;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .muti-value{
+            width:100%;
+            text-align: right;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: wrap;
+            word-break: break-all;
+            -webkit-line-clamp: 1;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+        }
+    }
+
+    .arrow {
+        width: 15rpx;
+        height: 27rpx;
+        margin-left: 15rpx;
+    }
+
+    .pop-wrapper{
+        width: 100%;
+        background-color: #fff;
+        min-height: 400rpx;
+    }
+    
+    .popup-box{
+        width:100%;
+        box-sizing: border-box;
+        padding: 40rpx;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #fff;
+    }
+    .choice-item{
+        border: 1px solid #cccccc;
+        color:#cccccc;
+        padding: 5rpx 20rpx;
+        margin-left: 10rpx;
+        margin-bottom: 10rpx;
+        border-radius: 10rpx;
+        height: 40rpx;
+    }
+    .confirm{
+        margin: 20rpx auto 0;
+        background-color: #ffa400;
+        color: white;
+        font-size: 28rpx;
+        width: 200rpx;
+        height: 50rpx;
+        border-radius: 25rpx;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .active{
+        border: 1px solid #ffa400;
+        color:#ffa400;
+    }
+}
