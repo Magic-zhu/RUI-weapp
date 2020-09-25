@@ -1,21 +1,21 @@
 export default {
     use:true,
     defaultStyle:{
-        "border-radius":"",
-        "background-color":"",
-        "width":"",
-        "height":"",
-        "border":"",
-        "color":"",
-        "font-size":"",
+        bordeRadius:"",
+        backgroundColor:"",
+        width:"",
+        height:"",
+        border:"",
+        colo:"",
+        fontSize:"",
     },
     success:{
-        "background-color":"#39b54a",
+        backgroundColor:"#39b54a",
     },
     warning:{
-        "background-color":"#fbbd08",
+        backgroundColor:"#fbbd08",
     },
     error:{
-        "background-color":"#e54d42",
+        backgroundColor:"#e54d42",
     },
 }

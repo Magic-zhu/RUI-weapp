@@ -1,153 +1,164 @@
 {
-	"description": "项目配置文件",
-	"packOptions": {
-		"ignore": []
-	},
-	"setting": {
-		"urlCheck": true,
-		"es6": true,
-		"enhance": false,
-		"postcss": true,
-		"preloadBackgroundData": false,
-		"minified": true,
-		"newFeature": true,
-		"coverView": true,
-		"nodeModules": true,
-		"autoAudits": false,
-		"showShadowRootInWxmlPanel": false,
-		"scopeDataCheck": false,
-		"uglifyFileName": false,
-		"checkInvalidKey": true,
-		"checkSiteMap": true,
-		"uploadWithSourceMap": true,
-		"compileHotReLoad": false,
-		"babelSetting": {
-			"ignore": [],
-			"disablePlugins": [],
-			"outputPath": ""
-		},
-		"useIsolateContext": true,
-		"useCompilerModule": true,
-		"userConfirmedUseCompilerModuleSwitch": false
-	},
-	"compileType": "miniprogram",
-	"libVersion": "2.10.2",
-	"appid": "wx00698b8482e6bdf8",
-	"projectname": "apollo-ui",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
-	"isGameTourist": false,
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"gamePlugin": {
-			"current": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": -1,
-			"list": [
-				{
-					"id": -1,
-					"name": "button",
-					"pathName": "pages/Button_Ex/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "popup",
-					"pathName": "pages/Popup_Ex/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "cell",
-					"pathName": "pages/Cell_Ex/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "Notify",
-					"pathName": "pages/Notify_Ex/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "Icon",
-					"pathName": "pages/Icon_Ex/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "modal",
-					"pathName": "pages/Modal_Ex/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "about",
-					"pathName": "pages/about/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "ActionSheet",
-					"pathName": "pages/ActionSheet_Ex/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "二维码",
-					"pathName": "pages/Qrcode_Ex/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "条形码",
-					"pathName": "pages/BarCode_Ex/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "图片上传",
-					"pathName": "pages/Uploader_Ex/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "颜色",
-					"pathName": "pages/Color_Ex/index",
-					"scene": null
-				}
-			]
-		}
-	}
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": false,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "useMultiFrameRuntime": false,
+    "useApiHook": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.10.2",
+  "appid": "wx00698b8482e6bdf8",
+  "projectname": "apollo-ui",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": [
+        {
+          "id": -1,
+          "name": "button",
+          "pathName": "pages/Button_Ex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "popup",
+          "pathName": "pages/Popup_Ex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "cell",
+          "pathName": "pages/Cell_Ex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "Notify",
+          "pathName": "pages/Notify_Ex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "Icon",
+          "pathName": "pages/Icon_Ex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "modal",
+          "pathName": "pages/Modal_Ex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "about",
+          "pathName": "pages/about/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "ActionSheet",
+          "pathName": "pages/ActionSheet_Ex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "二维码",
+          "pathName": "pages/Qrcode_Ex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "条形码",
+          "pathName": "pages/BarCode_Ex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "图片上传",
+          "pathName": "pages/Uploader_Ex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "颜色",
+          "pathName": "pages/Color_Ex/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "搜索框",
+          "pathName": "pages/Search_Bar_Ex/index",
+          "scene": null
+        }
+      ]
+    }
+  }
 }

@@ -1,0 +1,6 @@
+<Container navBarOptions='{{navBarOptions}}'>
+    <view class='wrapper'>
+        <view class="Ex-Title">标准搜索框</view>   
+        <magic-search-bar />
+    </view>
+</Container>

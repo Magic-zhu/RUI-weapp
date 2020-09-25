@@ -61,10 +61,24 @@ Component({
                 cssString = target
             }else{
                 for (let key in target) {
-                    cssString = cssString + `${key}:${target[key]};`
+                    cssString = cssString + `${this.humpParse(key)}:${target[key]};`
                 }
             }
             return cssString
+        },
+         humpParse(s) {
+            const reg = /([a-z]+)|([A-Z]{1}[a-z]+)/g;
+            let r = s.match(reg)
+            let attr = ''
+            r.forEach((e,index)=>{
+                if(index===0){
+                    attr = e;
+                }else{
+                    e = e.toLowerCase()
+                    attr = attr + '-' + e;
+                }
+            })
+            return attr
         },
         handleTap(e) {
             this.triggerEvent('Tap', e)
