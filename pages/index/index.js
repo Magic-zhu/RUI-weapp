@@ -60,6 +60,11 @@ Page({
                 type: "title",
             },
             {
+                name: "SearchBar 搜索框",
+                path: "/pages/Search_Bar_Ex/index",
+                type: "page",
+            },
+            {
                 name: "反馈组件",
                 type: "title",
             },
