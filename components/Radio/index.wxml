@@ -1,0 +1,8 @@
+<!--components/Radio/index.wxml-->
+<view>
+    <radio-group class="radio {{size}}" style="{{custom}}" bindchange="radioChange">
+        <label wx:for="{{radioArray}}" wx:for-item="item" wx:key="{{item.id}}">
+            <radio value="{{item.value}}" color="{{item.color}}" disabled="{{item.disabled}}" checked="{{item.checked}}"  /> {{item.name}}
+        </label>
+    </radio-group>
+</view>

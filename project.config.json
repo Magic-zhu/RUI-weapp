@@ -25,7 +25,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.10.2",
-	"appid": "wx00698b8482e6bdf8",
+	"appid": "wxae919c5c700b6b6f",
 	"projectname": "RUI-weapp",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -96,6 +96,12 @@
 					"id": -1,
 					"name": "modal",
 					"pathName": "pages/Modal_Ex/index",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "radio",
+					"pathName": "pages/Radio_Ex/index",
 					"scene": null
 				}
 			]
