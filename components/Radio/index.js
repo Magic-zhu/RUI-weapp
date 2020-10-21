@@ -18,7 +18,7 @@ Component({
   },
   methods: {
     radioChange(e){
-      this.triggerEvent('radio',e);
+      this.triggerEvent('Radio',e);
     }
   },
 });
