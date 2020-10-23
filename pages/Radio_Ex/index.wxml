@@ -1,0 +1,9 @@
+<!--pages/Radio_Ex/indexjs.wxml-->
+<Container navBarOptions='{{navBarOptions}}'>
+    <view class="radio_ex">
+        <view class="label">不同尺寸</view>
+        <Radio size="small" radioArray="{{radioArray}}" style="display:block" onRadio="radioChange"></Radio>
+        <Radio size="normal" radioArray="{{radioArray}}" style="display:block" onRadio="radioChange"></Radio>
+        <Radio size="big" radioArray="{{radioArray}}" style="display:block" onRadio="radioChange"></Radio>
+    </view>
+</Container>

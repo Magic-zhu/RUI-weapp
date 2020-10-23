@@ -12,7 +12,9 @@
     "pages/form/index",
     "pages/business/index",
     "pages/Icon_Ex/index",
-    "pages/Modal_Ex/index"
+    "pages/Modal_Ex/index",
+    "components/Radio/index",
+    "pages/Radio_Ex/index"
   ],
   "window": {
     "navigationStyle": "custom",
@@ -31,7 +33,8 @@
     "Curtain": "./components/curtain/index",
     "Cell": "./components/Cell/index",
     "Icon": "./components/Icon/index",
-    "Modal": "./components/Modal/index"
+    "Modal": "./components/Modal/index",
+    "Radio": "./components/Radio/index"
   },
   "tabBar": {
     "color": "#333333",

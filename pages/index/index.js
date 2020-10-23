@@ -32,6 +32,10 @@ Page({
       {
         name:"Icon",
         path:"/pages/Icon_Ex/index"
+      },
+      {
+        name: "Radio",
+        path: "/pages/Radio_Ex/index"
       }
     ]
   },

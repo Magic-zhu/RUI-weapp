@@ -1,0 +1,17 @@
+.normal {
+  font-size: 50rpx;
+}
+.small {
+  font-size: 40rpx;
+}
+.small radio {
+  transform: scale(0.7);
+  width: 60rpx;
+}
+.big {
+  font-size: 60rpx;
+}
+.big radio {
+  transform: scale(1.2);
+  width: 80rpx;
+}
