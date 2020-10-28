@@ -1,0 +1,113 @@
+<view class="rich-editor">
+	<view class="toolbar-left" wx:if="{{showToolBar && type=='left'}}">
+		<view
+		 class="toolbar-item {{item.select?'toolbar-item-select':''}}"
+		 wx:for="{{btnList}}"
+		 wx:key="btnList"
+		 hover-class="toolbar-item-hover"
+		 catch:tap='handleTap'
+		 data-key='{{item.key}}'
+		 data-index='{{index}}'
+		>
+			<text class="iconfont {{item.key}}"/>
+
+        </view>
+        <view 
+            class="toolbar-item {{color?'toolbar-item-select':''}}"  
+            hover-class="toolbar-item-hover" 
+            catch:longpress="showColorPicker" 
+            catch:tap="colorFont" 
+            data-type='color'
+        >
+            <text class="red" style="color:{{colorSelected}}">A
+</text>
+		</view>
+		<view
+		 class="toolbar-item {{highlight?'toolbar-item-select':''}}"
+		 hover-class="toolbar-item-hover"
+		 catch:longpress="showColorPicker"
+		 catch:tap="highlight"
+		 data-type='backgroundColor'
+		>
+			<text class="highlight" style="background-color:{{highLightSelected}}">A</text>
+		</view>
+	</view>
+	<view class="toolbar-top" wx:if="{{type=='top'}}">
+		<view
+		 class="toolbar-item {{item.select?'toolbar-item-select':''}}"
+		 wx:for="{{btnList}}"
+		 wx:key="btnList"
+		 hover-class="toolbar-item-hover"
+		 catch:tap='handleTap'
+		 data-key='{{item.key}}'
+		 data-index='{{index}}'
+		>
+			<text class="iconfont {{item.key}}"/>
+
+        </view>
+        <view 
+            class="toolbar-item {{color?'toolbar-item-select':''}}"  
+            hover-class="toolbar-item-hover" 
+            catch:longpress="showColorPicker" 
+            catch:tap="colorFont" 
+            data-type='color'
+        >
+            <text class="red" style="color:{{colorSelected}}">A</text>
+		</view>
+		<view
+		 class="toolbar-item {{highlight?'toolbar-item-select':''}}"
+		 hover-class="toolbar-item-hover"
+		 catch:longpress="showColorPicker"
+		 catch:tap="highlight"
+		 data-type='backgroundColor'
+		>
+			<text class="highlight" style="background-color:{{highLightSelected}}">A</text>
+		</view>
+		<view class="color-picker-top" wx:if="{{showColorPicker && type=='top'}}" animation='{{colorPickerAnimation}}'>
+			<view
+			 wx:for='{{colorList}}'
+			 wx:key='color'
+			 class="color-item"
+			 style="background:{{item}}"
+			 catch:tap="selectColor"
+			 data-index='{{index}}'
+			/>
+		</view>
+	</view>
+	<editor
+	 id="{{sid}}"
+	 class=""
+	 show-img-size
+	 show-img-toolbar
+	 show-img-resize
+	 bindinput='getEditorInput'
+	 bindready='initEditor'
+	 bindblur='blur'
+	 bindfocus='focus'
+	 bindstatuschange='stausChange'
+	 style="width:{{width}};height:{{height}}"
+	/>
+
+	<view class="color-picker-left" wx:if="{{showColorPicker && type=='left'}}" animation='{{colorPickerAnimation}}'>
+		<view
+		 wx:for='{{colorList}}'
+		 wx:key='color'
+		 class="color-item"
+		 style="background:{{item}}"
+		 catch:tap="selectColor"
+		 data-index='{{index}}'
+		/>
+		<view catch:tap="openColorCircle" class="moreColor">更多</view>
+	</view>
+	<canvas
+	 type='2d'
+	 id='color-circle'
+	 class="color-circle"
+	 wx:if="{{showColorCircle}}"
+	 catch:touchmove="canvasTouchMove"
+	 catch:touchstart="canvasTouchstart"
+	 catch:touchend="canvasTouchEnd"
+	 catch:tap=""
+	/>
+</view>
+

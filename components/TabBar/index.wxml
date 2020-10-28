@@ -1,0 +1,14 @@
+<view class="custom_tabbar" style="height:{{ifHasBlank?160:100}}rpx;background-color:{{backgroundColor}}">
+	<view class="box">
+        <view  wx:for="{{tabItemList}}" wx:key="customTabBar" class="tab-item" catch:tap="tabbarTap" data-index='{{index}}'>
+            <image src="{{item.selectedIconPath}}" wx:if="{{active==index}}" class="icon"/>
+            <image src="{{item.iconPath}}" wx:else class="icon"/>
+            <text class='' style="color:{{selectedColor}}" wx:if="{{active==index}}" >{{item.text}}</text>
+            <text class='' style="color:{{color}}" wx:else>{{item.text}}</text>
+            <view class="red-hot" wx:if="{{item.redDot}}"></view>
+            <view class="badge" wx:if="{{item.bdageitem.bdage}}">{{item.bdage}}</view>
+        </view>
+        <slot wx:if="{{custom}}"></slot>
+    </view>
+    <view class='block' wx:if="{{ifHasBlank}}"></view>
+</view>
