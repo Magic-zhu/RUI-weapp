@@ -83,7 +83,7 @@ Page({
                 type: "title",
             },
             {
-                name: "Modal",
+                name: "Modal 弹窗",
                 path: "/pages/Modal_Ex/index",
                 type: "page",
             },

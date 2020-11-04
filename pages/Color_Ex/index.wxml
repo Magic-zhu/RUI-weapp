@@ -30,7 +30,7 @@
 			 class="item"
 			 wx:for="{{normalList}}"
 			 wx:key="normalList"
-			 style="background:{{item.value}};border:{{item.border?'1px solid '+item.border:'none'}}"
+			 style="background:{{item.value}};border:{{item.border?'1px solid '+item.border:'none'}};color:{{item.border?item.border:''}}"
 			>
 				<text>{{item.color}}</text>
 				<text>{{item.value}}</text>

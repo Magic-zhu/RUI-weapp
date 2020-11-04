@@ -1,4 +1,4 @@
-class animation {
+class MgAnimation {
 
     constructor(options) {
         this.ins = wx.createAnimation(this.handleOpt(options))
@@ -15,13 +15,28 @@ class animation {
     begin() {
         return this.ins
     }
+
     step(options) {
         return this.ins.step(this.handleOpt(options))
     }
+
     end() {
         return this.ins.export()
     }
+    
+    action(type,params) {
+        if(typeof type !=='string') throw new Error('type must be string')
+        this.ins[type](params)
+        return this
+    }
 
+    // 常用的动画
+
+    /**
+     * 缩放
+     * @param {*} status - in或者out
+     * @param {*} coefficent - 缩放系数 
+     */
     scale(status, coefficent = 1) {
         let opacity;
         if (status == 'in') {
@@ -49,7 +64,7 @@ class animation {
     }
 }
 
-export default animation;
+export default MgAnimation;
 
 
 
